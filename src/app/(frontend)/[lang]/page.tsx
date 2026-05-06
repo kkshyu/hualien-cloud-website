@@ -78,7 +78,7 @@ export default async function HomePage({
               {lang === 'zh' ? (
                 <>
                   山與海之間<br />
-                  <span className="accent">Hualien Cloud Hub</span>
+                  <span className="accent">花蓮雲基地</span>
                 </>
               ) : (
                 <>

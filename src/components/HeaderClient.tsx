@@ -55,12 +55,17 @@ export function HeaderClient({ lang, brandWord, brandTagline, links, langSwitchL
   return (
     <header className="site-header">
       <div className="site-header__inner">
-        <Link href={`/${lang}`} className="brand" onClick={() => setOpen(false)}>
-          <span className="mark"><BrandMark /></span>
-          <span className="word">
-            {brandWord}
-            <span className="en">{brandTagline}</span>
-          </span>
+        <Link
+          href={`/${lang}`}
+          className="brand brand--logo"
+          onClick={() => setOpen(false)}
+          aria-label={brandWord}
+        >
+          <img
+            src="/hualien-cloud-logo.svg"
+            alt={brandWord}
+            className="brand__logo"
+          />
         </Link>
 
         <nav className="nav-main" aria-label={lang === 'zh' ? '主選單' : 'Primary'}>

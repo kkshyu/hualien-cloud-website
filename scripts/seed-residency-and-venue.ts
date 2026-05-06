@@ -9,8 +9,18 @@ import 'dotenv/config'
 import { getPayload } from 'payload'
 import payloadConfig from '../src/payload.config.js'
 
-// ---------- 進駐 ----------
+// ---------- 進駐 (Nomad Hualien · 數位遊牧者進駐計劃) ----------
 const MOVE_IN_ZH = `
+<h2>關於 Nomad Hualien</h2>
+<p><strong>Nomad Hualien · 花蓮雲基地數位遊牧者進駐計劃</strong>邀請來自全球的數位遊牧者，把花蓮當作下一個工作據點。從台灣的東海岸出發，連結國際遊牧社群、在地產業與創作者，把「在花蓮工作」變成一段可被細細說起的職涯經驗。</p>
+<p>第一梯次徵選已順利完成，入選者來自希臘、日本、印度、臺灣與德國，跨足科技、設計、行銷與內容創作領域。第二梯次正在規劃中，歡迎下載簡章了解最新進駐期程與申請方式。</p>
+
+<h3>📑 招募簡章下載</h3>
+<ul>
+  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-zh.pdf?prefix=media" target="_blank" rel="noopener">下載中文版簡章（PDF · 8 頁）</a></li>
+  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-en.pdf?prefix=media" target="_blank" rel="noopener">Download English brochure (PDF · 8 pages)</a></li>
+</ul>
+
 <h2>空間簡介</h2>
 <ul>
   <li>個人工作室（私人房間，含獨立衛浴與空調）</li>
@@ -69,6 +79,16 @@ const MOVE_IN_ZH = `
 `.trim()
 
 const MOVE_IN_EN = `
+<h2>About Nomad Hualien</h2>
+<p><strong>Nomad Hualien · the Hualien Cloud Hub Digital Nomad Residency Program</strong> invites digital nomads from around the world to make Hualien their next base. Starting from Taiwan&rsquo;s east coast, the programme connects international nomad communities with local industry and makers — turning &ldquo;working in Hualien&rdquo; into a chapter of your career worth telling.</p>
+<p>The first cohort is in residence: five participants from Greece, Japan, India, Taiwan and Germany, working across tech, design, marketing and content. The second cohort is being planned. Download the brochure below for the latest dates and how to apply.</p>
+
+<h3>📑 Recruitment Brochures</h3>
+<ul>
+  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-en.pdf?prefix=media" target="_blank" rel="noopener">Download English brochure (PDF · 8 pages)</a></li>
+  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-zh.pdf?prefix=media" target="_blank" rel="noopener">下載中文版簡章 (PDF · 8 頁)</a></li>
+</ul>
+
 <h2>About the Space</h2>
 <ul>
   <li>Private studio rooms with ensuite bathroom and air conditioning</li>
@@ -241,7 +261,13 @@ async function findCoverIdByFilename(payload: any, filename: string) {
   return r.docs[0]?.id ?? null
 }
 
-async function updatePage(payload: any, slug: string, zh: string, en: string, coverFilename?: string) {
+async function updatePage(
+  payload: any,
+  slug: string,
+  zh: string,
+  en: string,
+  opts: { coverFilename?: string; titleZh?: string; titleEn?: string } = {},
+) {
   const r = await payload.find({
     collection: 'pages',
     where: { slug: { equals: slug } },
@@ -253,7 +279,7 @@ async function updatePage(payload: any, slug: string, zh: string, en: string, co
     console.warn(`  ! page '${slug}' not found`)
     return
   }
-  const coverId = coverFilename ? await findCoverIdByFilename(payload, coverFilename) : null
+  const coverId = opts.coverFilename ? await findCoverIdByFilename(payload, opts.coverFilename) : null
   await payload.update({
     collection: 'pages',
     id: p.id,
@@ -261,24 +287,35 @@ async function updatePage(payload: any, slug: string, zh: string, en: string, co
     data: {
       legacyHtml: zh,
       body: null,
+      ...(opts.titleZh ? { title: opts.titleZh } : {}),
       ...(coverId ? { cover: coverId } : {}),
     } as any,
   })
-  console.log(`  ✓ ${slug} [zh-TW] body rewritten${coverId ? ' (+cover)' : ''}`)
+  console.log(`  ✓ ${slug} [zh-TW] body rewritten${coverId ? ' (+cover)' : ''}${opts.titleZh ? ' (+title)' : ''}`)
 
   await payload.update({
     collection: 'pages',
     id: p.id,
     locale: 'en',
-    data: { legacyHtml: en, body: null } as any,
+    data: {
+      legacyHtml: en,
+      body: null,
+      ...(opts.titleEn ? { title: opts.titleEn } : {}),
+    } as any,
   })
-  console.log(`  ✓ ${slug} [en] body rewritten`)
+  console.log(`  ✓ ${slug} [en] body rewritten${opts.titleEn ? ' (+title)' : ''}`)
 }
 
 async function main() {
   const payload = await getPayload({ config: payloadConfig as any })
-  await updatePage(payload, 'move-in', MOVE_IN_ZH, MOVE_IN_EN, 'cowork-space-scaled-e1774513567779.jpg')
-  await updatePage(payload, 'venue-rental', VENUE_ZH, VENUE_EN, 'IMG_2373.jpg')
+  await updatePage(payload, 'move-in', MOVE_IN_ZH, MOVE_IN_EN, {
+    coverFilename: 'cowork-space-scaled-e1774513567779.jpg',
+    titleZh: 'Nomad Hualien｜花蓮雲基地數位遊牧者進駐計劃',
+    titleEn: 'Nomad Hualien — Digital Nomad Residency Programme',
+  })
+  await updatePage(payload, 'venue-rental', VENUE_ZH, VENUE_EN, {
+    coverFilename: 'IMG_2373.jpg',
+  })
   console.log('\n🎉 done')
   process.exit(0)
 }

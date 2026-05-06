@@ -207,6 +207,19 @@ p {
   color: var(--moss);
 }
 
+/* Logo-only brand variant: render the official SVG lock-up instead of the
+   icon + wordmark composite. */
+.brand--logo {
+  align-items: center;
+}
+.brand__logo {
+  display: block;
+  height: clamp(2.6rem, 4vw, 3.4rem);
+  width: auto;
+  max-width: 18rem;
+  object-fit: contain;
+}
+
 .brand .word {
   font-family: var(--f-display-tc);
   font-weight: 500;
