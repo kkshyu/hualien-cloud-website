@@ -12,8 +12,8 @@ import payloadConfig from '../src/payload.config.js'
 // ---------- 進駐 (Nomad Hualien · 數位遊牧者進駐計劃) ----------
 const MOVE_IN_ZH = `
 <h2>關於 Nomad Hualien</h2>
-<p><strong>Nomad Hualien · 花蓮雲基地數位遊牧者進駐計劃</strong>邀請來自全球的數位遊牧者，把花蓮當作下一個工作據點。從台灣的東海岸出發，連結國際遊牧社群、在地產業與創作者，把「在花蓮工作」變成一段可被細細說起的職涯經驗。</p>
-<p>第一梯次徵選已順利完成，入選者來自希臘、日本、印度、臺灣與德國，跨足科技、設計、行銷與內容創作領域。第二梯次正在規劃中，歡迎下載簡章了解最新進駐期程與申請方式。</p>
+<p><strong>Nomad Hualien · 花蓮雲基地數位遊牧者進駐計劃</strong>邀請來自全球的數位遊牧者把花蓮當作下一個工作據點。從台灣東海岸出發，提供工作空間與社群交流平台，推動<strong>國際與在地連結</strong>。</p>
+<p>主辦：花蓮縣政府　|　執行：遊遊股份有限公司　|　115 年度（2026）</p>
 
 <h3>📑 招募簡章下載</h3>
 <ul>
@@ -21,15 +21,56 @@ const MOVE_IN_ZH = `
   <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-en.pdf?prefix=media" target="_blank" rel="noopener">Download English brochure (PDF · 8 pages)</a></li>
 </ul>
 
-<h2>空間簡介</h2>
+<h2>名額與期程</h2>
 <ul>
-  <li>個人工作室（私人房間，含獨立衛浴與空調）</li>
-  <li>一樓共創空間（共用辦公桌、會議區）</li>
-  <li>可預約私人會議室</li>
-  <li>高速網路、列印與週邊設備</li>
-  <li>每月固定遊牧者交流聚會（三三小聚）</li>
-  <li>步行可達在地便利設施（縣府、夜市、車站）</li>
-  <li>駐點人員平日現場協助</li>
+  <li><strong>名額：</strong>5 名／每期（滾動調整）</li>
+  <li><strong>進駐期間：</strong>即日起至 2026 / 09 / 30</li>
+  <li><strong>單次期程：</strong>最短 1 個月、最長 3 個月</li>
+  <li><strong>費用：</strong>全程免費，無需負擔進駐費用</li>
+  <li><strong>續駐：</strong>需重新申請並經核准，至多延長一次</li>
+</ul>
+
+<h2>招募對象與申請資格</h2>
+<p>本計畫以<strong>國際數位遊牧者</strong>為主要招募對象，即具備遠距工作能力、得以在不同地點執行工作的國際專業人士。</p>
+<ul>
+  <li>從事數位相關工作（軟體開發、設計、數位行銷、內容創作、線上教學、自由接案等），可透過網路進行遠端工作。</li>
+  <li>持有有效護照及合法在臺簽證，或持有其他國家的數位遊牧簽證。</li>
+  <li>有意在花蓮進行 1 至 3 個月的短期數位工作與生活體驗。</li>
+  <li>願意參與雲基地舉辦之社群小聚、分享活動與國際交流活動。</li>
+</ul>
+
+<h2>申請應備文件</h2>
+<ol>
+  <li>進駐申請表 1 份</li>
+  <li>個人簡介及數位工作計畫書 1 份</li>
+  <li>護照影本</li>
+  <li>數位工作成果作品集或相關證明文件</li>
+</ol>
+<p>完整表單與聲明文件請參考上方下載的簡章。</p>
+
+<h2>審查與評選機制</h2>
+<p>由工作小組進行書面審查，未滿 60 分者不予進駐；通過後將公告於本網站並以 Email 通知。</p>
+<table>
+  <thead>
+    <tr><th>審查項目</th><th>內容</th><th>比重</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>數位工作計畫</td><td>計畫完整性、工作項目與遠端可行性、在花蓮期間的時間規劃</td><td>30%</td></tr>
+    <tr><td>專業能力與經歷</td><td>數位專業技能、過往作品或專案經驗、遠端工作經驗</td><td>25%</td></tr>
+    <tr><td>社群貢獻潛力</td><td>願意分享專業知能、與在地產業互動意願、跨文化交流能力</td><td>25%</td></tr>
+    <tr><td>花蓮在地連結性</td><td>對花蓮產業或文化的興趣與了解、符合數位遊牧發展理念</td><td>20%</td></tr>
+  </tbody>
+</table>
+<p>通過後須於 10 天內至花蓮雲基地辦理簽約，逾期視同放棄並由備取遞補。</p>
+
+<h2>進駐空間與設備</h2>
+<ul>
+  <li>2 樓個人獨立進駐空間，提供書桌、椅子、置物櫃等家具設備。</li>
+  <li>1 樓共創空間：共用辦公桌、會議區、可預約之私人會議室。</li>
+  <li>高速網路、列印與週邊設備。</li>
+  <li>每月固定遊牧者交流聚會（三三小聚）。</li>
+  <li>步行可達在地便利設施（縣府、夜市、車站）。</li>
+  <li>駐點人員平日現場協助。</li>
 </ul>
 
 <h2>申請須知</h2>
@@ -79,8 +120,8 @@ const MOVE_IN_ZH = `
 
 const MOVE_IN_EN = `
 <h2>About Nomad Hualien</h2>
-<p><strong>Nomad Hualien · the Hualien Cloud Hub Digital Nomad Residency Program</strong> invites digital nomads from around the world to make Hualien their next base. Starting from Taiwan&rsquo;s east coast, the programme connects international nomad communities with local industry and makers — turning &ldquo;working in Hualien&rdquo; into a chapter of your career worth telling.</p>
-<p>The first cohort is in residence: five participants from Greece, Japan, India, Taiwan and Germany, working across tech, design, marketing and content. The second cohort is being planned. Download the brochure below for the latest dates and how to apply.</p>
+<p><strong>Nomad Hualien — the Hualien Cloud Hub International Digital Nomad Residency Programme</strong> invites digital nomads from around the world to base their next chapter in Hualien. From Taiwan&rsquo;s east coast, the programme provides workspace and a community platform that connects <strong>international and local</strong>.</p>
+<p>Hosted by Hualien County Government　|　Operated by Yo-Yo Co., Ltd.　|　FY 2026 (民國 115 年度)</p>
 
 <h3>📑 Recruitment Brochures</h3>
 <ul>
@@ -88,15 +129,56 @@ const MOVE_IN_EN = `
   <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-zh.pdf?prefix=media" target="_blank" rel="noopener">下載中文版簡章 (PDF · 8 頁)</a></li>
 </ul>
 
-<h2>About the Space</h2>
+<h2>Slots &amp; Schedule</h2>
 <ul>
-  <li>Private studio rooms with ensuite bathroom and air conditioning</li>
-  <li>Ground-floor coworking area with shared desks and meeting nooks</li>
-  <li>Bookable private meeting rooms</li>
-  <li>High-speed internet, printing and basic equipment</li>
-  <li>Monthly community meet-ups (Hualien 33)</li>
-  <li>Local amenities — county hall, night market, train station — within walking distance</li>
-  <li>On-site staff support during weekdays</li>
+  <li><strong>Slots:</strong> 5 residents per cohort (rolling adjustment)</li>
+  <li><strong>Window:</strong> open through 30 September 2026</li>
+  <li><strong>Stay length:</strong> 1 to 3 months per residency</li>
+  <li><strong>Cost:</strong> free of charge for the entire stay</li>
+  <li><strong>Extension:</strong> requires a fresh application; up to one extension per resident</li>
+</ul>
+
+<h2>Who can apply</h2>
+<p>The programme is for <strong>international digital nomads</strong> — professionals who can work remotely from any location.</p>
+<ul>
+  <li>You work in a digital field (software, design, digital marketing, content creation, online teaching, freelance, etc.) and can do your job over the internet.</li>
+  <li>You hold a valid passport and a legal Taiwan visa, or a digital-nomad visa from another country.</li>
+  <li>You want to spend 1 – 3 months living and working in Hualien.</li>
+  <li>You&rsquo;re happy to take part in the Hub&rsquo;s community meet-ups, talks and international exchange events.</li>
+</ul>
+
+<h2>Required documents</h2>
+<ol>
+  <li>Application form (1 copy)</li>
+  <li>Bio &amp; digital work plan (1 copy)</li>
+  <li>Copy of your passport</li>
+  <li>Portfolio or supporting materials</li>
+</ol>
+<p>The full application packet and declaration forms are inside the brochure linked above.</p>
+
+<h2>Review &amp; selection</h2>
+<p>A working group performs a written review. Applications below 60 points are not admitted. Successful applicants are announced on this site and notified by email.</p>
+<table>
+  <thead>
+    <tr><th>Criterion</th><th>What we look at</th><th>Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Digital work plan</td><td>plan completeness, what you do remotely &amp; its feasibility, your time plan in Hualien</td><td>30%</td></tr>
+    <tr><td>Skills &amp; track record</td><td>digital-domain skills, past work, remote-work experience</td><td>25%</td></tr>
+    <tr><td>Community contribution</td><td>willingness to share, interest in working with locals, cross-cultural ability</td><td>25%</td></tr>
+    <tr><td>Local connection</td><td>understanding of and interest in Hualien&rsquo;s industry / culture, fit with the digital-nomad vision</td><td>20%</td></tr>
+  </tbody>
+</table>
+<p>Selected applicants must complete the residency agreement at the Hub within 10 days; otherwise the slot passes to the wait-list.</p>
+
+<h2>Studio &amp; facilities</h2>
+<ul>
+  <li>Private studio on the 2nd floor with desk, chair and locker.</li>
+  <li>Ground-floor coworking: shared desks, meeting area, bookable private meeting rooms.</li>
+  <li>High-speed internet, printing and basic peripherals.</li>
+  <li>Monthly community meet-up (Hualien 33).</li>
+  <li>Local amenities — county hall, night market, train station — within walking distance.</li>
+  <li>On-site staff support during weekdays.</li>
 </ul>
 
 <h2>Terms and Conditions</h2>
@@ -264,7 +346,15 @@ async function updatePage(
   slug: string,
   zh: string,
   en: string,
-  opts: { coverFilename?: string; titleZh?: string; titleEn?: string } = {},
+  opts: {
+    coverFilename?: string
+    titleZh?: string
+    titleEn?: string
+    heroHeadingZh?: string
+    heroHeadingEn?: string
+    heroSubZh?: string
+    heroSubEn?: string
+  } = {},
 ) {
   const r = await payload.find({
     collection: 'pages',
@@ -277,7 +367,10 @@ async function updatePage(
     console.warn(`  ! page '${slug}' not found`)
     return
   }
-  const coverId = opts.coverFilename ? await findCoverIdByFilename(payload, opts.coverFilename) : null
+  const heroImageId = opts.coverFilename
+    ? await findCoverIdByFilename(payload, opts.coverFilename)
+    : null
+
   await payload.update({
     collection: 'pages',
     id: p.id,
@@ -286,10 +379,14 @@ async function updatePage(
       legacyHtml: zh,
       body: null,
       ...(opts.titleZh ? { title: opts.titleZh } : {}),
-      ...(coverId ? { cover: coverId } : {}),
+      hero: {
+        ...(opts.heroHeadingZh !== undefined ? { heading: opts.heroHeadingZh } : {}),
+        ...(opts.heroSubZh !== undefined ? { subheading: opts.heroSubZh } : {}),
+        ...(heroImageId ? { image: heroImageId } : {}),
+      },
     } as any,
   })
-  console.log(`  ✓ ${slug} [zh-TW] body rewritten${coverId ? ' (+cover)' : ''}${opts.titleZh ? ' (+title)' : ''}`)
+  console.log(`  ✓ ${slug} [zh-TW] body rewritten${heroImageId ? ' (+hero.image)' : ''}${opts.titleZh ? ' (+title)' : ''}`)
 
   await payload.update({
     collection: 'pages',
@@ -299,6 +396,12 @@ async function updatePage(
       legacyHtml: en,
       body: null,
       ...(opts.titleEn ? { title: opts.titleEn } : {}),
+      hero: {
+        ...(opts.heroHeadingEn !== undefined ? { heading: opts.heroHeadingEn } : {}),
+        ...(opts.heroSubEn !== undefined ? { subheading: opts.heroSubEn } : {}),
+        // hero.image is non-localized but Payload accepts repeating it
+        ...(heroImageId ? { image: heroImageId } : {}),
+      },
     } as any,
   })
   console.log(`  ✓ ${slug} [en] body rewritten${opts.titleEn ? ' (+title)' : ''}`)
@@ -310,9 +413,17 @@ async function main() {
     coverFilename: 'cowork-space-scaled-e1774513567779.jpg',
     titleZh: 'Nomad Hualien｜花蓮雲基地數位遊牧者進駐計劃',
     titleEn: 'Nomad Hualien — Digital Nomad Residency Programme',
+    heroHeadingZh: 'Nomad Hualien 進駐計劃',
+    heroHeadingEn: 'Nomad Hualien Residency',
+    heroSubZh: '邀請來自全球的數位遊牧者，把花蓮當作下一個工作據點。從台灣東海岸出發，連結國際與在地。',
+    heroSubEn: 'Inviting digital nomads from around the world to base their next chapter in Hualien — connecting international and local from Taiwan’s east coast.',
   })
   await updatePage(payload, 'venue-rental', VENUE_ZH, VENUE_EN, {
     coverFilename: 'IMG_2373.jpg',
+    heroHeadingZh: '場地租用',
+    heroHeadingEn: 'Venue Rental',
+    heroSubZh: '把活動、發表、工作坊放在山與海之間。共創空間 20–25 人 × 戶外廣場 80 人。',
+    heroSubEn: 'Host events, talks and workshops between mountain and sea. Coworking 20–25 ppl · Outdoor plaza up to 80 ppl.',
   })
   console.log('\n🎉 done')
   process.exit(0)
