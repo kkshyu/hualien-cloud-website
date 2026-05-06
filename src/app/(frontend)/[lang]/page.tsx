@@ -193,20 +193,45 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* ───────────────────────── CONTACT ───────────────────────── */}
-      <section className="shell contact-strip">
-        <div>
-          <span className="section-label">— 03 / {tx.contactTitle}</span>
-          <h2>{tx.contactTitle}</h2>
-          <p>{tx.contactLede}</p>
+      {/* ───────────────────────── CLOUD COFFEE ───────────────────────── */}
+      <section className="shell programmes">
+        <div className="programmes__head">
+          <span className="section-label">— 03 / {lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</span>
+          <h2>{lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</h2>
+          <p>
+            {lang === 'zh'
+              ? '工作日的午後，把咖啡、茶與一杯靜下來的時間放在這裡。每週三開放活動，每月第三個週三延伸成課程與小聚。'
+              : 'A weekday afternoon for coffee, tea and a slower hour. Open every Wednesday — and every third Wednesday extends into a class and a meet-up.'}
+          </p>
         </div>
-        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-          <a href="mailto:contact@hualien.cloud" className="cta">
-            contact@hualien.cloud
-          </a>
-          <Link href={`/${lang}/how-to-arrive`} className="cta cta--ghost">
-            {tx.visitUs}
-          </Link>
+        <div className="programmes__list">
+          <div className="programme-item">
+            <span className="num">☕</span>
+            <h3>{lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</h3>
+            <p>
+              {lang === 'zh'
+                ? '每週三 15:00 – 17:00 開放活動。咖啡 × 茶 × 聊天，歡迎走進來坐一下。'
+                : 'Every Wednesday, 15:00 – 17:00. Coffee, tea and conversation — drop in any time.'}
+            </p>
+          </div>
+          <div className="programme-item">
+            <span className="num">☕</span>
+            <h3>{lang === 'zh' ? '手沖咖啡專業養成' : 'Hand-drip Coffee Class'}</h3>
+            <p>
+              {lang === 'zh'
+                ? '每月第三個週三 15:00 – 17:00。由花蓮在地精品咖啡師帶領，從豆子到萃取，讓沖一杯咖啡變成日常的儀式。'
+                : 'Third Wednesday of each month, 15:00 – 17:00. A local specialty barista walks you from bean to brew — making a daily cup feel like ritual.'}
+            </p>
+          </div>
+          <div className="programme-item">
+            <span className="num">🌏</span>
+            <h3>{lang === 'zh' ? '花蓮三三小聚' : 'Hualien 33 Meetup'}</h3>
+            <p>
+              {lang === 'zh'
+                ? '每月第三個週三 18:30 – 20:00。在地與來訪的數位遊牧者圍坐一桌，把這個月在做的事帶上來分享。'
+                : 'Third Wednesday of each month, 18:30 – 20:00. Locals and visiting digital nomads gather around one table to share what they’re working on this month.'}
+            </p>
+          </div>
         </div>
       </section>
     </>
