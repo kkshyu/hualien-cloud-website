@@ -45,9 +45,11 @@ html {
   --t-6xl: 6.25rem;    /* 100  — was 96 */
 
   /* Layout */
-  --max-w: 1320px;
+  --max-w: 1520px;       /* wider container on desktop */
   --gut: clamp(1.5rem, 4vw, 3rem);
-  --rail: clamp(1.5rem, 5vw, 5rem);
+  /* Side rail: floor raised so phones get real breathing room; cap loosened
+     so wide-monitor desktop has more usable width inside .shell. */
+  --rail: clamp(1.75rem, 4vw, 4rem);
 
   /* Motion */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
