@@ -45,10 +45,9 @@ html {
   --t-6xl: 6.25rem;    /* 100  — was 96 */
 
   /* Layout */
-  --max-w: 1520px;       /* wider container on desktop */
+  --max-w: 1320px;       /* default site shell width */
   --gut: clamp(1.5rem, 4vw, 3rem);
-  /* Side rail: floor raised so phones get real breathing room; cap loosened
-     so wide-monitor desktop has more usable width inside .shell. */
+  /* Side rail: floor raised so phones get real breathing room. */
   --rail: clamp(1.75rem, 4vw, 4rem);
 
   /* Motion */

@@ -475,13 +475,22 @@ p {
    Article / prose
    ======================================================================== */
 .prose {
-  max-width: 68ch;
+  max-width: 80ch;
   margin: 0 auto;
   padding: 0 var(--rail);
   font-family: var(--f-body-tc);
   font-size: var(--t-lg);
   line-height: 1.75;
   color: var(--ink-soft);
+}
+
+/* Tables, figures and embeds inside articles can extend wider than the
+   prose column — useful for the residency review rubric, transit table,
+   embedded maps, etc. */
+.prose table,
+.prose figure,
+.prose iframe {
+  max-width: min(96ch, 100%);
 }
 
 .prose h2 {
