@@ -1,0 +1,115 @@
+{
+  "_wpCustomizeWidgetsSettings": "{\"registeredSidebars\":[{\"name\":\"\\u4e3b\\u8981\\u8cc7\\u8a0a\\u6b04\",\"id\":\"sidebar-1\",\"description\":\"\\u5728\\u9019\\u88e1\\u65b0\\u589e\\u5c0f\\u5de5\\u5177.\",\"class\":\"\",\"before_widget\":\"<div class=\\\"ct-widget is-layout-flow %2$s\\\" id=\\\"%1$s\\\">\",\"after_widget\":\"<\\/div>\",\"before_title\":\"<h3 class=\\\"widget-title\\\">\",\"after_title\":\"<\\/h3>\",\"before_sidebar\":\"\",\"after_sidebar\":\"\",\"show_in_rest\":false},{\"name\":\"\\u9801\\u5c3e\\u5c0f\\u5de5\\u5177\\u5340\\u57df1\",\"id\":\"ct-footer-sidebar-1\",\"description\":\"\",\"class\":\"\",\"be",
+  "_wpCustomizeNavMenusSettings": {
+    "allMenus": [
+      {
+        "term_id": 5,
+        "name": "MAIN",
+        "slug": "main",
+        "term_group": 0,
+        "term_taxonomy_id": 5,
+        "taxonomy": "nav_menu",
+        "description": "",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "itemTypes": [
+      {
+        "title": "文章",
+        "type_label": "文章",
+        "type": "post_type",
+        "object": "post"
+      },
+      {
+        "title": "頁面",
+        "type_label": "頁面",
+        "type": "post_type",
+        "object": "page"
+      },
+      {
+        "title": "Language Switcher",
+        "type_label": "Language Switcher",
+        "type": "post_type",
+        "object": "language_switcher"
+      },
+      {
+        "title": "分類",
+        "type_label": "分類",
+        "type": "taxonomy",
+        "object": "category"
+      },
+      {
+        "title": "標籤",
+        "type_label": "標籤",
+        "type": "taxonomy",
+        "object": "post_tag"
+      }
+    ],
+    "l10n": {
+      "untitled": "(無標籤)",
+      "unnamed": "(未命名)",
+      "custom_label": "自訂連結",
+      "page_label": "頁面",
+      "menuLocation": "(目前選單位置: %s)",
+      "locationsTitle": "選單位置",
+      "locationsDescription": "目前使用的佈景主題提供 4 個位置顯示選單。",
+      "menuNameLabel": "選單名稱",
+      "newMenuNameDescription": "如果目前使用的佈景主題支援多個選單位置，請為個別選單明確命名，這會對管理選單十分有幫助。",
+      "itemAdded": "選單項目已新增",
+      "itemDeleted": "選單項目已刪除",
+      "menuAdded": "選單已建立",
+      "menuDeleted": "選單已刪除",
+      "movedUp": "選單項目已上移",
+      "movedDown": "選單項目已下移",
+      "movedLeft": "選單項目已從子選單中移出",
+      "movedRight": "選單項目已移入成為子項目",
+      "customizingMenus": "目前的自訂項目 &#9656; 選單",
+      "invalidTitleTpl": "%s (無效)",
+      "pendingTitleTpl": "%s (待審閱)",
+      "itemsFound": "已找到的項目數量: %d",
+      "itemsFoundMore": "找到的附加項目: %d",
+      "itemsLoadingMore": "正在載入更多結果，請稍候。",
+      "reorderModeOn": "重新排序模式已啟用",
+      "reorderModeOff": "重新排序模式已停用",
+      "reorderLabelOn": "重新排序選單項目",
+      "reorderLabelOff": "關閉重新排序模式"
+    },
+    "settingTransport": "postMessage",
+    "phpIntMax": 9223372036854775807,
+    "defaultSettingValues": {
+      "nav_menu": {
+        "name": "",
+        "description": "",
+        "parent": 0,
+        "auto_add": false
+      },
+      "nav_menu_item": {
+        "object_id": 0,
+        "object": "",
+        "menu_item_parent": 0,
+        "position": 0,
+        "type": "custom",
+        "title": "",
+        "url": "",
+        "target": "",
+        "attr_title": "",
+        "description": "",
+        "classes": "",
+        "xfn": "",
+        "status": "publish",
+        "original_title": "",
+        "nav_menu_term_id": 0,
+        "_invalid": false
+      }
+    },
+    "locationSlugMappedToName": {
+      "footer": "頁尾選單",
+      "menu_1": "頁首選單 1",
+      "menu_2": "頁首選單 2",
+      "menu_mobile": "行動版選單"
+    }
+  },
+  "_wpCustomizeControlsL10n": "{\"activate\":\"\\u555f\\u7528\\u4e26\\u767c\\u4f48\",\"save\":\"\\u5132\\u5b58\\u4e26\\u767c\\u4f48\",\"publish\":\"\\u767c\\u4f48\",\"published\":\"\\u5df2\\u767c\\u4f48\",\"saveDraft\":\"\\u5132\\u5b58\\u8349\\u7a3f\",\"draftSaved\":\"\\u8349\\u7a3f\\u5df2\\u5132\\u5b58\",\"updating\":\"\\u6b63\\u5728\\u66f4\\u65b0\",\"schedule\":\"\\u6392\\u7a0b\",\"scheduled\":\"\\u5df2\\u6392\\u7a0b\",\"invalid\":\"\\u7121\\u6548\",\"saveBeforeShare\":\"\\u5982\\u9700\\u5206\\u4eab\\u9810\\u89bd\\u9023\\u7d50\\uff0c\\u8acb\\u5148\\u5132\\u5b58\\u70ba\\u8349\\u7a3f\\u3002\",\"futureDateError\":\"\\u8acb\\u"
+}

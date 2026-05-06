@@ -1,0 +1,2162 @@
+{
+  "menu-items": [
+    {
+      "id": 477,
+      "title": {
+        "rendered": "活動 Events"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/cloudcoffee/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Page",
+      "object": "page",
+      "object_id": 419,
+      "parent": 0,
+      "menu_order": 1,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/477",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=477"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/pages/419"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 411,
+      "title": {
+        "rendered": "場地 Venue"
+      },
+      "status": "publish",
+      "url": "#",
+      "attr_title": "",
+      "description": "",
+      "type": "custom",
+      "type_label": "Custom Link",
+      "object": "custom",
+      "object_id": 411,
+      "parent": 0,
+      "menu_order": 2,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/411",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=411"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 412,
+      "title": {
+        "rendered": "進駐空間 Studios"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/%e9%80%b2%e9%a7%90/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Page",
+      "object": "page",
+      "object_id": 408,
+      "parent": 411,
+      "menu_order": 3,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/412",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=412"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/pages/408"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 397,
+      "title": {
+        "rendered": "共創空間 Coworking Space"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/%e5%a0%b4%e5%9c%b0%e7%a7%9f%e7%94%a8/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Page",
+      "object": "page",
+      "object_id": 306,
+      "parent": 411,
+      "menu_order": 4,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/397",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=397"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/pages/306"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 247,
+      "title": {
+        "rendered": "語言"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/language_switcher/current-language/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Language Switcher",
+      "object": "language_switcher",
+      "object_id": 243,
+      "parent": 0,
+      "menu_order": 5,
+      "target": "",
+      "classes": [
+        "",
+        "trp-language-switcher-container",
+        "trp-menu-ls-item",
+        "trp-menu-ls-desktop",
+        "current-language-menu-item",
+        "current-language-menu-item"
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/247",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=247"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 246,
+      "title": {
+        "rendered": "繁體中文"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/language_switcher/chinese/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Language Switcher",
+      "object": "language_switcher",
+      "object_id": 241,
+      "parent": 247,
+      "menu_order": 6,
+      "target": "",
+      "classes": [
+        "",
+        "trp-language-switcher-container",
+        "trp-menu-ls-item",
+        "trp-menu-ls-desktop",
+        "current-language-menu-item",
+        "current-language-menu-item"
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/246",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=246"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 245,
+      "title": {
+        "rendered": "English"
+      },
+      "status": "publish",
+      "url": "https://www.hualien.cloud/language_switcher/english/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Language Switcher",
+      "object": "language_switcher",
+      "object_id": 242,
+      "parent": 247,
+      "menu_order": 7,
+      "target": "",
+      "classes": [
+        "",
+        "trp-language-switcher-container",
+        "trp-menu-ls-item",
+        "trp-menu-ls-desktop"
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "_uag_custom_page_level_css": ""
+      },
+      "menus": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items/245",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus?post=245"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "menus": [
+    {
+      "id": 5,
+      "description": "",
+      "name": "MAIN",
+      "slug": "main",
+      "meta": [],
+      "locations": [],
+      "auto_add": false,
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus/5",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menus"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/taxonomies/nav_menu"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/menu-items?menus=5"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "templates": [],
+  "template-parts": [],
+  "navigation": [
+    {
+      "id": 4,
+      "date": "2025-04-08T04:20:25",
+      "date_gmt": "2025-04-08T04:20:25",
+      "guid": {
+        "rendered": "https://test-site.want2.design/uncategorized/navigation/"
+      },
+      "modified": "2025-04-08T04:20:25",
+      "modified_gmt": "2025-04-08T04:20:25",
+      "slug": "navigation",
+      "status": "publish",
+      "type": "wp_navigation",
+      "link": "https://www.hualien.cloud/uncategorized/navigation/",
+      "title": {
+        "rendered": "導覽選單"
+      },
+      "content": {
+        "rendered": "<ul class=\"wp-block-page-list\"><li class=\"wp-block-pages-list__item menu-item-home\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/\">home</a></li><li class=\"wp-block-pages-list__item\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/%e5%a0%b4%e5%9c%b0%e7%a7%9f%e7%94%a8/\">場地租用</a></li><li class=\"wp-block-pages-list__item\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/%e5%a6%82%e4%bd%95%e5%89%8d%e5%be%80/\">如何前往</a></li><li class=\"wp-block-pages-list__item\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/cloudcoffee/\">活動</a></li><li class=\"wp-block-pages-list__item\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/news/\">活動資訊</a></li><li class=\"wp-block-pages-list__item\"><a class=\"wp-block-pages-list__item__link\" href=\"https://www.hualien.cloud/%e9%80%b2%e9%a7%90/\">進駐</a></li></ul>",
+        "protected": false
+      },
+      "template": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/navigation/4",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/navigation"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/types/wp_navigation"
+          }
+        ],
+        "version-history": [
+          {
+            "count": 0,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/navigation/4/revisions"
+          }
+        ],
+        "wp:attachment": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/media?parent=4"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "title": "花蓮雲基地",
+    "description": "",
+    "url": "https://www.hualien.cloud",
+    "email": "want2design.info@gmail.com",
+    "timezone": "",
+    "date_format": "Y-m-d",
+    "time_format": "g:i a",
+    "start_of_week": 1,
+    "language": "",
+    "use_smilies": true,
+    "default_category": 1,
+    "default_post_format": "0",
+    "posts_per_page": 10,
+    "show_on_front": "page",
+    "page_on_front": 24,
+    "page_for_posts": 0,
+    "default_ping_status": "open",
+    "default_comment_status": "open",
+    "site_logo": 468,
+    "site_icon": 471
+  },
+  "themes": [
+    {
+      "stylesheet": "blocksy",
+      "template": "blocksy",
+      "requires_php": "7.0",
+      "requires_wp": "6.5",
+      "textdomain": "blocksy",
+      "version": "2.1.0",
+      "screenshot": "https://www.hualien.cloud/wp-content/themes/blocksy/screenshot.jpg",
+      "author": {
+        "raw": "CreativeThemes",
+        "rendered": "<a href=\"https://creativethemes.com\">CreativeThemes</a>"
+      },
+      "author_uri": {
+        "raw": "https://creativethemes.com",
+        "rendered": "https://creativethemes.com"
+      },
+      "description": {
+        "raw": "Blocksy is a fast, modern WordPress theme with advanced WooCommerce support and full compatibility with the block editor.",
+        "rendered": "Blocksy is a fast, modern WordPress theme with advanced WooCommerce support and full compatibility with the block editor."
+      },
+      "name": {
+        "raw": "Blocksy",
+        "rendered": "Blocksy"
+      },
+      "tags": {
+        "raw": [
+          "accessibility-ready",
+          "blog",
+          "block-patterns",
+          "e-commerce",
+          "wide-blocks",
+          "block-styles",
+          "grid-layout",
+          "one-column",
+          "two-columns",
+          "three-columns",
+          "four-columns",
+          "right-sidebar",
+          "left-sidebar",
+          "translation-ready",
+          "custom-colors",
+          "custom-logo",
+          "custom-menu",
+          "featured-images",
+          "footer-widgets",
+          "full-width-template",
+          "theme-options",
+          "threaded-comments"
+        ],
+        "rendered": "accessibility-ready, blog, block-patterns, e-commerce, wide-blocks, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, translation-ready, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments"
+      },
+      "theme_uri": {
+        "raw": "https://creativethemes.com/blocksy/",
+        "rendered": "https://creativethemes.com/blocksy/"
+      },
+      "status": "active",
+      "theme_supports": {
+        "align-wide": true,
+        "automatic-feed-links": true,
+        "block-templates": false,
+        "block-template-parts": false,
+        "custom-background": false,
+        "custom-header": false,
+        "custom-logo": {
+          "width": 0,
+          "height": 0,
+          "flex-width": true,
+          "flex-height": true,
+          "header-text": [],
+          "unlink-homepage-logo": false
+        },
+        "customize-selective-refresh-widgets": true,
+        "dark-editor-style": false,
+        "disable-custom-colors": false,
+        "disable-custom-font-sizes": false,
+        "disable-custom-gradients": false,
+        "disable-layout-styles": false,
+        "editor-color-palette": [
+          {
+            "name": "Color 1",
+            "slug": "palette-color-1",
+            "color": "var(--theme-palette-color-1, #2872fa)"
+          },
+          {
+            "name": "Color 2",
+            "slug": "palette-color-2",
+            "color": "var(--theme-palette-color-2, #1559ed)"
+          },
+          {
+            "name": "Color 3",
+            "slug": "palette-color-3",
+            "color": "var(--theme-palette-color-3, #3A4F66)"
+          },
+          {
+            "name": "Color 4",
+            "slug": "palette-color-4",
+            "color": "var(--theme-palette-color-4, #192a3d)"
+          },
+          {
+            "name": "Color 5",
+            "slug": "palette-color-5",
+            "color": "var(--theme-palette-color-5, #e1e8ed)"
+          },
+          {
+            "name": "Color 6",
+            "slug": "palette-color-6",
+            "color": "var(--theme-palette-color-6, #f2f5f7)"
+          },
+          {
+            "name": "Color 7",
+            "slug": "palette-color-7",
+            "color": "var(--theme-palette-color-7, #FAFBFC)"
+          },
+          {
+            "name": "Color 8",
+            "slug": "palette-color-8",
+            "color": "var(--theme-palette-color-8, #ffffff)"
+          }
+        ],
+        "editor-font-sizes": false,
+        "editor-gradient-presets": [
+          {
+            "name": "Vivid cyan blue to vivid purple",
+            "gradient": "linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)",
+            "slug": "vivid-cyan-blue-to-vivid-purple"
+          },
+          {
+            "name": "Light green cyan to vivid green cyan",
+            "gradient": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+            "slug": "light-green-cyan-to-vivid-green-cyan"
+          },
+          {
+            "name": "Luminous vivid amber to luminous vivid orange",
+            "gradient": "linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%)",
+            "slug": "luminous-vivid-amber-to-luminous-vivid-orange"
+          },
+          {
+            "name": "Luminous vivid orange to vivid red",
+            "gradient": "linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%)",
+            "slug": "luminous-vivid-orange-to-vivid-red"
+          },
+          {
+            "name": "Cool to warm spectrum",
+            "gradient": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+            "slug": "cool-to-warm-spectrum"
+          },
+          {
+            "name": "Blush light purple",
+            "gradient": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+            "slug": "blush-light-purple"
+          },
+          {
+            "name": "Blush bordeaux",
+            "gradient": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+            "slug": "blush-bordeaux"
+          },
+          {
+            "name": "Luminous dusk",
+            "gradient": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+            "slug": "luminous-dusk"
+          },
+          {
+            "name": "Pale ocean",
+            "gradient": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+            "slug": "pale-ocean"
+          },
+          {
+            "name": "Electric grass",
+            "gradient": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+            "slug": "electric-grass"
+          },
+          {
+            "name": "Midnight",
+            "gradient": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+            "slug": "midnight"
+          },
+          {
+            "name": "Juicy Peach",
+            "gradient": "linear-gradient(to right, #ffecd2 0%, #fcb69f 100%)",
+            "slug": "juicy-peach"
+          },
+          {
+            "name": "Young Passion",
+            "gradient": "linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%)",
+            "slug": "young-passion"
+          },
+          {
+            "name": "True Sunset",
+            "gradient": "linear-gradient(to right, #fa709a 0%, #fee140 100%)",
+            "slug": "true-sunset"
+          },
+          {
+            "name": "Morpheus Den",
+            "gradient": "linear-gradient(to top, #30cfd0 0%, #330867 100%)",
+            "slug": "morpheus-den"
+          },
+          {
+            "name": "Plum Plate",
+            "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            "slug": "plum-plate"
+          },
+          {
+            "name": "Aqua Splash",
+            "gradient": "linear-gradient(15deg, #13547a 0%, #80d0c7 100%)",
+            "slug": "aqua-splash"
+          },
+          {
+            "name": "Love Kiss",
+            "gradient": "linear-gradient(to top, #ff0844 0%, #ffb199 100%)",
+            "slug": "love-kiss"
+          },
+          {
+            "name": "New Retrowave",
+            "gradient": "linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%)",
+            "slug": "new-retrowave"
+          },
+          {
+            "name": "Plum Bath",
+            "gradient": "linear-gradient(to top, #cc208e 0%, #6713d2 100%)",
+            "slug": "plum-bath"
+          },
+          {
+            "name": "High Flight",
+            "gradient": "linear-gradient(to right, #0acffe 0%, #495aff 100%)",
+            "slug": "high-flight"
+          },
+          {
+            "name": "Teen Party",
+            "gradient": "linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%)",
+            "slug": "teen-party"
+          },
+          {
+            "name": "Fabled Sunset",
+            "gradient": "linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%)",
+            "slug": "fabled-sunset"
+          },
+          {
+            "name": "Arielle Smile",
+            "gradient": "radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%)",
+            "slug": "arielle-smile"
+          },
+          {
+            "name": "Itmeo Branding",
+            "gradient": "linear-gradient(180deg, #2af598 0%, #009efd 100%)",
+            "slug": "itmeo-branding"
+          },
+          {
+            "name": "Deep Blue",
+            "gradient": "linear-gradient(to right, #6a11cb 0%, #2575fc 100%)",
+            "slug": "deep-blue"
+          },
+          {
+            "name": "Strong Bliss",
+            "gradient": "linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%)",
+            "slug": "strong-bliss"
+          },
+          {
+            "name": "Sweet Period",
+            "gradient": "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)",
+            "slug": "sweet-period"
+          },
+          {
+            "name": "Purple Division",
+            "gradient": "linear-gradient(to top, #7028e4 0%, #e5b2ca 100%)",
+            "slug": "purple-division"
+          },
+          {
+            "name": "Cold Evening",
+            "gradient": "linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%)",
+            "slug": "cold-evening"
+          },
+          {
+            "name": "Mountain Rock",
+            "gradient": "linear-gradient(to right, #868f96 0%, #596164 100%)",
+            "slug": "mountain-rock"
+          },
+          {
+            "name": "Desert Hump",
+            "gradient": "linear-gradient(to top, #c79081 0%, #dfa579 100%)",
+            "slug": "desert-hump"
+          },
+          {
+            "name": "Eternal Constance",
+            "gradient": "linear-gradient(to top, #09203f 0%, #537895 100%)",
+            "slug": "ethernal-constance"
+          },
+          {
+            "name": "Happy Memories",
+            "gradient": "linear-gradient(-60deg, #ff5858 0%, #f09819 100%)",
+            "slug": "happy-memories"
+          },
+          {
+            "name": "Grown Early",
+            "gradient": "linear-gradient(to top, #0ba360 0%, #3cba92 100%)",
+            "slug": "grown-early"
+          },
+          {
+            "name": "Morning Salad",
+            "gradient": "linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%)",
+            "slug": "morning-salad"
+          },
+          {
+            "name": "Night Call",
+            "gradient": "linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)",
+            "slug": "night-call"
+          },
+          {
+            "name": "Mind Crawl",
+            "gradient": "linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%)",
+            "slug": "mind-crawl"
+          },
+          {
+            "name": "Angel Care",
+            "gradient": "linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%)",
+            "slug": "angel-care"
+          },
+          {
+            "name": "Juicy Cake",
+            "gradient": "linear-gradient(to top, #e14fad 0%, #f9d423 100%)",
+            "slug": "juicy-cake"
+          },
+          {
+            "name": "Rich Metal",
+            "gradient": "linear-gradient(to right, #d7d2cc 0%, #304352 100%)",
+            "slug": "rich-metal"
+          },
+          {
+            "name": "Mole Hall",
+            "gradient": "linear-gradient(-20deg, #616161 0%, #9bc5c3 100%)",
+            "slug": "mole-hall"
+          },
+          {
+            "name": "Cloudy Knoxville",
+            "gradient": "linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)",
+            "slug": "cloudy-knoxville"
+          },
+          {
+            "name": "Very light gray to cyan bluish gray",
+            "gradient": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+            "slug": "very-light-gray-to-cyan-bluish-gray"
+          },
+          {
+            "name": "Soft Grass",
+            "gradient": "linear-gradient(to top, #c1dfc4 0%, #deecdd 100%)",
+            "slug": "soft-grass"
+          },
+          {
+            "name": "Saint Petersburg",
+            "gradient": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+            "slug": "saint-petersburg"
+          },
+          {
+            "name": "Everlasting Sky",
+            "gradient": "linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)",
+            "slug": "everlasting-sky"
+          },
+          {
+            "name": "Kind Steel",
+            "gradient": "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)",
+            "slug": "kind-steel"
+          },
+          {
+            "name": "Over Sun",
+            "gradient": "linear-gradient(60deg, #abecd6 0%, #fbed96 100%)",
+            "slug": "over-sun"
+          },
+          {
+            "name": "Premium White",
+            "gradient": "linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%)",
+            "slug": "premium-white"
+          },
+          {
+            "name": "Clean Mirror",
+            "gradient": "linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%)",
+            "slug": "clean-mirror"
+          },
+          {
+            "name": "Wild Apple",
+            "gradient": "linear-gradient(to top, #d299c2 0%, #fef9d7 100%)",
+            "slug": "wild-apple"
+          },
+          {
+            "name": "Snow Again",
+            "gradient": "linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)",
+            "slug": "snow-again"
+          },
+          {
+            "name": "Confident Cloud",
+            "gradient": "linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%)",
+            "slug": "confident-cloud"
+          },
+          {
+            "name": "Glass Water",
+            "gradient": "linear-gradient(to top, #dfe9f3 0%, white 100%)",
+            "slug": "glass-water"
+          },
+          {
+            "name": "Perfect White",
+            "gradient": "linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)",
+            "slug": "perfect-white"
+          }
+        ],
+        "editor-spacing-sizes": false,
+        "editor-styles": true,
+        "html5": [
+          "script",
+          "style",
+          "search-form",
+          "comment-form",
+          "comment-list",
+          "gallery",
+          "caption"
+        ],
+        "formats": [
+          "standard"
+        ],
+        "post-thumbnails": true,
+        "responsive-embeds": true,
+        "title-tag": true,
+        "wp-block-styles": false
+      },
+      "is_block_theme": false,
+      "stylesheet_uri": "https://www.hualien.cloud/wp-content/themes/blocksy",
+      "template_uri": "https://www.hualien.cloud/wp-content/themes/blocksy",
+      "default_template_types": [
+        {
+          "title": "Index",
+          "description": "Used as a fallback template for all pages when a more specific template is not defined.",
+          "slug": "index"
+        },
+        {
+          "title": "Blog Home",
+          "description": "Displays the latest posts as either the site homepage or as the \"Posts page\" as defined under reading settings. If it exists, the Front Page template overrides this template when posts are shown on the homepage.",
+          "slug": "home"
+        },
+        {
+          "title": "Front Page",
+          "description": "Displays your site's homepage, whether it is set to display latest posts or a static page. The Front Page template takes precedence over all templates.",
+          "slug": "front-page"
+        },
+        {
+          "title": "Single Entries",
+          "description": "Displays any single entry, such as a post or a page. This template will serve as a fallback when a more specific template (e.g. Single Post, Page, or Attachment) cannot be found.",
+          "slug": "singular"
+        },
+        {
+          "title": "Single Posts",
+          "description": "Displays a single post on your website unless a custom template has been applied to that post or a dedicated template exists.",
+          "slug": "single"
+        },
+        {
+          "title": "Pages",
+          "description": "Displays a static page unless a custom template has been applied to that page or a dedicated template exists.",
+          "slug": "page"
+        },
+        {
+          "title": "All Archives",
+          "description": "Displays any archive, including posts by a single author, category, tag, taxonomy, custom post type, and date. This template will serve as a fallback when more specific templates (e.g. Category or Tag) cannot be found.",
+          "slug": "archive"
+        },
+        {
+          "title": "Author Archives",
+          "description": "Displays a single author's post archive. This template will serve as a fallback when a more specific template (e.g. Author: Admin) cannot be found.",
+          "slug": "author"
+        },
+        {
+          "title": "Category Archives",
+          "description": "Displays a post category archive. This template will serve as a fallback when a more specific template (e.g. Category: Recipes) cannot be found.",
+          "slug": "category"
+        },
+        {
+          "title": "Taxonomy",
+          "description": "Displays a custom taxonomy archive. Like categories and tags, taxonomies have terms which you use to classify things. For example: a taxonomy named \"Art\" can have multiple terms, such as \"Modern\" and \"18th Century.\" This template will serve as a fallback when a more specific template (e.g. Taxonomy: Art) cannot be found.",
+          "slug": "taxonomy"
+        },
+        {
+          "title": "Date Archives",
+          "description": "Displays a post archive when a specific date is visited (e.g., example.com/2023/).",
+          "slug": "date"
+        },
+        {
+          "title": "Tag Archives",
+          "description": "Displays a post tag archive. This template will serve as a fallback when a more specific template (e.g. Tag: Pizza) cannot be found.",
+          "slug": "tag"
+        },
+        {
+          "title": "Attachment Pages",
+          "description": "Displays when a visitor views the dedicated page that exists for any media attachment.",
+          "slug": "attachment"
+        },
+        {
+          "title": "Search Results",
+          "description": "Displays when a visitor performs a search on your website.",
+          "slug": "search"
+        },
+        {
+          "title": "Privacy Policy",
+          "description": "Displays your site's Privacy Policy page.",
+          "slug": "privacy-policy"
+        },
+        {
+          "title": "Page: 404",
+          "description": "Displays when a visitor views a non-existent page, such as a dead link or a mistyped URL.",
+          "slug": "404"
+        },
+        {
+          "title": "Post Format: Standard",
+          "description": "Displays the Standard post format archive.",
+          "slug": "taxonomy-post_format-post-format-standard"
+        },
+        {
+          "title": "Post Format: Aside",
+          "description": "Displays the Aside post format archive.",
+          "slug": "taxonomy-post_format-post-format-aside"
+        },
+        {
+          "title": "Post Format: Chat",
+          "description": "Displays the Chat post format archive.",
+          "slug": "taxonomy-post_format-post-format-chat"
+        },
+        {
+          "title": "Post Format: Gallery",
+          "description": "Displays the Gallery post format archive.",
+          "slug": "taxonomy-post_format-post-format-gallery"
+        },
+        {
+          "title": "Post Format: Link",
+          "description": "Displays the Link post format archive.",
+          "slug": "taxonomy-post_format-post-format-link"
+        },
+        {
+          "title": "Post Format: Image",
+          "description": "Displays the Image post format archive.",
+          "slug": "taxonomy-post_format-post-format-image"
+        },
+        {
+          "title": "Post Format: Quote",
+          "description": "Displays the Quote post format archive.",
+          "slug": "taxonomy-post_format-post-format-quote"
+        },
+        {
+          "title": "Post Format: Status",
+          "description": "Displays the Status post format archive.",
+          "slug": "taxonomy-post_format-post-format-status"
+        },
+        {
+          "title": "Post Format: Video",
+          "description": "Displays the Video post format archive.",
+          "slug": "taxonomy-post_format-post-format-video"
+        },
+        {
+          "title": "Post Format: Audio",
+          "description": "Displays the Audio post format archive.",
+          "slug": "taxonomy-post_format-post-format-audio"
+        }
+      ],
+      "default_template_part_areas": [
+        {
+          "area": "uncategorized",
+          "label": "General",
+          "description": "General templates often perform a specific role like displaying post content, and are not tied to any particular area.",
+          "icon": "layout",
+          "area_tag": "div"
+        },
+        {
+          "area": "header",
+          "label": "Header",
+          "description": "The Header template defines a page area that typically contains a title, logo, and main navigation.",
+          "icon": "header",
+          "area_tag": "header"
+        },
+        {
+          "area": "footer",
+          "label": "Footer",
+          "description": "The Footer template defines a page area that typically contains site credits, social links, or any other combination of blocks.",
+          "icon": "footer",
+          "area_tag": "footer"
+        }
+      ],
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/themes/blocksy",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/themes"
+          }
+        ],
+        "wp:user-global-styles": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/global-styles/13"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "plugins": [
+    {
+      "plugin": "chaty/cht-icons",
+      "status": "active",
+      "name": "Chaty",
+      "plugin_uri": "",
+      "author": "Premio",
+      "author_uri": "https://premio.io/downloads/chaty/",
+      "description": {
+        "raw": "Chat with your website visitors via their favorite channels. Show a chat icon on the bottom of your site and communicate with your website visitors.",
+        "rendered": "Chat with your website visitors via their favorite channels. Show a chat icon on the bottom of your site and communicate with your website visitors. <cite>By <a href=\"https://premio.io/downloads/chaty/\">Premio</a>.</cite>"
+      },
+      "version": "3.5.0",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "chaty",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/chaty/cht-icons",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "plugin": "limit-login-attempts-reloaded/limit-login-attempts-reloaded",
+      "status": "active",
+      "name": "Limit Login Attempts Reloaded",
+      "plugin_uri": "",
+      "author": "Limit Login Attempts Reloaded",
+      "author_uri": "https://www.limitloginattempts.com/",
+      "description": {
+        "raw": "Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance.",
+        "rendered": "Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance. <cite>By <a href=\"https://www.limitloginattempts.com/\">Limit Login Attempts Reloaded</a>.</cite>"
+      },
+      "version": "2.26.24",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "limit-login-attempts-reloaded",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/limit-login-attempts-reloaded/limit-login-attempts-reloaded",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "plugin": "ultimate-addons-for-gutenberg/ultimate-addons-for-gutenberg",
+      "status": "active",
+      "name": "Spectra",
+      "plugin_uri": "https://www.brainstormforce.com",
+      "author": "Brainstorm Force",
+      "author_uri": "https://www.brainstormforce.com",
+      "description": {
+        "raw": "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster.",
+        "rendered": "The Spectra extends the Gutenberg functionality with several unique and feature-rich blocks that help build websites faster. <cite>By <a href=\"https://www.brainstormforce.com\">Brainstorm Force</a>.</cite>"
+      },
+      "version": "2.19.16",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "ultimate-addons-for-gutenberg",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/ultimate-addons-for-gutenberg/ultimate-addons-for-gutenberg",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "plugin": "astra-sites/astra-sites",
+      "status": "active",
+      "name": "Starter Templates",
+      "plugin_uri": "https://wpastra.com/",
+      "author": "Brainstorm Force",
+      "author_uri": "https://www.brainstormforce.com",
+      "description": {
+        "raw": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks &amp; images. This plugin offers the premium library of ready templates &amp; provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+        "rendered": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks &amp; images. This plugin offers the premium library of ready templates &amp; provides quick access to beautiful Pixabay images that can be imported in your website easily. <cite>By <a href=\"https://www.brainstormforce.com\">Brainstorm Force</a>.</cite>"
+      },
+      "version": "4.4.42",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "astra-sites",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/astra-sites/astra-sites",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "plugin": "translatepress-multilingual/index",
+      "status": "active",
+      "name": "TranslatePress - Multilingual",
+      "plugin_uri": "https://translatepress.com/",
+      "author": "Cozmoslabs, Razvan Mocanu, Madalin Ungureanu, Cristophor Hurduban",
+      "author_uri": "https://cozmoslabs.com/",
+      "description": {
+        "raw": "Experience a better way of translating your WordPress site using a visual front-end translation editor, with full support for WooCommerce and site builders.",
+        "rendered": "Experience a better way of translating your WordPress site using a visual front-end translation editor, with full support for WooCommerce and site builders. <cite>By <a href=\"https://cozmoslabs.com/\">Cozmoslabs, Razvan Mocanu, Madalin Ungureanu, Cristophor Hurduban</a>.</cite>"
+      },
+      "version": "3.0.4",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "translatepress-multilingual",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/translatepress-multilingual/index",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "plugin": "wpvivid-backuprestore/wpvivid-backuprestore",
+      "status": "active",
+      "name": "WPvivid Backup Plugin",
+      "plugin_uri": "",
+      "author": "WPvivid Backup &amp; Migration",
+      "author_uri": "https://wpvivid.com",
+      "description": {
+        "raw": "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one.",
+        "rendered": "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one. <cite>By <a href=\"https://wpvivid.com\">WPvivid Backup &amp; Migration</a>.</cite>"
+      },
+      "version": "0.9.121",
+      "network_only": false,
+      "requires_wp": "",
+      "requires_php": "",
+      "textdomain": "wpvivid-backuprestore",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/plugins/wpvivid-backuprestore/wpvivid-backuprestore",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "users?context=edit": [
+    {
+      "id": 1,
+      "username": "admin",
+      "name": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "want2design.info@gmail.com",
+      "url": "https://www.hualien.cloud",
+      "description": "",
+      "link": "https://www.hualien.cloud/author/admin/",
+      "locale": "en_US",
+      "nickname": "admin",
+      "slug": "admin",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2025-04-07T21:20:08+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "llar_admin": true,
+        "manage_zip_ai_assistant": true,
+        "manage_ast_block_templates": true,
+        "read_private_aggregator-records": true,
+        "edit_aggregator-records": true,
+        "edit_others_aggregator-records": true,
+        "edit_private_aggregator-records": true,
+        "edit_published_aggregator-records": true,
+        "delete_aggregator-records": true,
+        "delete_others_aggregator-records": true,
+        "delete_private_aggregator-records": true,
+        "delete_published_aggregator-records": true,
+        "publish_aggregator-records": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/0c4fad26759fff2d4fcf231a832137543fcb9fc6d45b833bee83dd4882a68fbe?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/0c4fad26759fff2d4fcf231a832137543fcb9fc6d45b833bee83dd4882a68fbe?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/0c4fad26759fff2d4fcf231a832137543fcb9fc6d45b833bee83dd4882a68fbe?s=96&d=mm&r=g"
+      },
+      "meta": {
+        "persisted_preferences": {
+          "core": {
+            "isComplementaryAreaVisible": true
+          },
+          "core/edit-site": {
+            "welcomeGuide": false,
+            "welcomeGuideStyles": false
+          },
+          "makeiteasy/slider": {
+            "welcomeGuide": false
+          },
+          "_modified": "2025-06-13T02:16:50.282Z",
+          "core/edit-post": {
+            "welcomeGuide": false
+          }
+        }
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users/1",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "username": "duncan",
+      "name": "duncan",
+      "first_name": "",
+      "last_name": "",
+      "email": "duncan@dna.org.tw",
+      "url": "",
+      "description": "",
+      "link": "https://www.hualien.cloud/author/duncan/",
+      "locale": "zh_TW",
+      "nickname": "duncan",
+      "slug": "duncan",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2025-06-18T01:44:53+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "llar_admin": true,
+        "manage_zip_ai_assistant": true,
+        "manage_ast_block_templates": true,
+        "read_private_aggregator-records": true,
+        "edit_aggregator-records": true,
+        "edit_others_aggregator-records": true,
+        "edit_private_aggregator-records": true,
+        "edit_published_aggregator-records": true,
+        "delete_aggregator-records": true,
+        "delete_others_aggregator-records": true,
+        "delete_private_aggregator-records": true,
+        "delete_published_aggregator-records": true,
+        "publish_aggregator-records": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/d6ae8819acd29507dc8ae03e8c7eb5b7396aaecd622bcad4cc051754f530d268?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/d6ae8819acd29507dc8ae03e8c7eb5b7396aaecd622bcad4cc051754f530d268?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/d6ae8819acd29507dc8ae03e8c7eb5b7396aaecd622bcad4cc051754f530d268?s=96&d=mm&r=g"
+      },
+      "meta": {
+        "persisted_preferences": []
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users/6",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "username": "kk",
+      "name": "kk",
+      "first_name": "",
+      "last_name": "",
+      "email": "kk@dna.org.tw",
+      "url": "",
+      "description": "",
+      "link": "https://www.hualien.cloud/author/kk/",
+      "locale": "zh_TW",
+      "nickname": "kk",
+      "slug": "kk",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2025-06-18T01:43:25+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "llar_admin": true,
+        "manage_zip_ai_assistant": true,
+        "manage_ast_block_templates": true,
+        "read_private_aggregator-records": true,
+        "edit_aggregator-records": true,
+        "edit_others_aggregator-records": true,
+        "edit_private_aggregator-records": true,
+        "edit_published_aggregator-records": true,
+        "delete_aggregator-records": true,
+        "delete_others_aggregator-records": true,
+        "delete_private_aggregator-records": true,
+        "delete_published_aggregator-records": true,
+        "publish_aggregator-records": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/c5c25794cb8107b1ce95360e950b9ced8e3d0c6bd63da3db3aca7e959c04c3f0?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/c5c25794cb8107b1ce95360e950b9ced8e3d0c6bd63da3db3aca7e959c04c3f0?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/c5c25794cb8107b1ce95360e950b9ced8e3d0c6bd63da3db3aca7e959c04c3f0?s=96&d=mm&r=g"
+      },
+      "meta": {
+        "persisted_preferences": {
+          "core": {
+            "isComplementaryAreaVisible": false
+          },
+          "core/edit-post": {
+            "welcomeGuide": false
+          },
+          "_modified": "2026-05-01T05:55:52.478Z",
+          "core/edit-widgets": {
+            "isComplementaryAreaVisible": true,
+            "welcomeGuide": false
+          }
+        }
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users/5",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "username": "liann",
+      "name": "Liann",
+      "first_name": "Liann",
+      "last_name": "",
+      "email": "liann@dna.org.tw",
+      "url": "",
+      "description": "",
+      "link": "https://www.hualien.cloud/author/liann/",
+      "locale": "en_US",
+      "nickname": "liann",
+      "slug": "liann",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2026-02-14T08:13:59+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "llar_admin": true,
+        "manage_zip_ai_assistant": true,
+        "manage_ast_block_templates": true,
+        "read_private_aggregator-records": true,
+        "edit_aggregator-records": true,
+        "edit_others_aggregator-records": true,
+        "edit_private_aggregator-records": true,
+        "edit_published_aggregator-records": true,
+        "delete_aggregator-records": true,
+        "delete_others_aggregator-records": true,
+        "delete_private_aggregator-records": true,
+        "delete_published_aggregator-records": true,
+        "publish_aggregator-records": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/662920755b77a44ed144f561119d52d57cf8a084b824f78f4898d5d1e3c779af?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/662920755b77a44ed144f561119d52d57cf8a084b824f78f4898d5d1e3c779af?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/662920755b77a44ed144f561119d52d57cf8a084b824f78f4898d5d1e3c779af?s=96&d=mm&r=g"
+      },
+      "meta": {
+        "persisted_preferences": {
+          "core": {
+            "isComplementaryAreaVisible": true
+          },
+          "core/edit-post": {
+            "welcomeGuide": false
+          },
+          "_modified": "2026-03-26T08:42:03.121Z"
+        }
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users/7",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "username": "jimmy30628",
+      "name": "白 峻宇",
+      "first_name": "峻宇",
+      "last_name": "白",
+      "email": "jimmy30628@gmail.com",
+      "url": "",
+      "description": "",
+      "link": "https://www.hualien.cloud/author/jimmy30628/",
+      "locale": "zh_TW",
+      "nickname": "jimmy30628",
+      "slug": "jimmy30628",
+      "roles": [
+        "administrator"
+      ],
+      "registered_date": "2025-06-13T12:09:33+00:00",
+      "capabilities": {
+        "switch_themes": true,
+        "edit_themes": true,
+        "activate_plugins": true,
+        "edit_plugins": true,
+        "edit_users": true,
+        "edit_files": true,
+        "manage_options": true,
+        "moderate_comments": true,
+        "manage_categories": true,
+        "manage_links": true,
+        "upload_files": true,
+        "import": true,
+        "unfiltered_html": true,
+        "edit_posts": true,
+        "edit_others_posts": true,
+        "edit_published_posts": true,
+        "publish_posts": true,
+        "edit_pages": true,
+        "read": true,
+        "level_10": true,
+        "level_9": true,
+        "level_8": true,
+        "level_7": true,
+        "level_6": true,
+        "level_5": true,
+        "level_4": true,
+        "level_3": true,
+        "level_2": true,
+        "level_1": true,
+        "level_0": true,
+        "edit_others_pages": true,
+        "edit_published_pages": true,
+        "publish_pages": true,
+        "delete_pages": true,
+        "delete_others_pages": true,
+        "delete_published_pages": true,
+        "delete_posts": true,
+        "delete_others_posts": true,
+        "delete_published_posts": true,
+        "delete_private_posts": true,
+        "edit_private_posts": true,
+        "read_private_posts": true,
+        "delete_private_pages": true,
+        "edit_private_pages": true,
+        "read_private_pages": true,
+        "delete_users": true,
+        "create_users": true,
+        "unfiltered_upload": true,
+        "edit_dashboard": true,
+        "update_plugins": true,
+        "delete_plugins": true,
+        "install_plugins": true,
+        "update_themes": true,
+        "install_themes": true,
+        "update_core": true,
+        "list_users": true,
+        "remove_users": true,
+        "promote_users": true,
+        "edit_theme_options": true,
+        "delete_themes": true,
+        "export": true,
+        "llar_admin": true,
+        "manage_zip_ai_assistant": true,
+        "manage_ast_block_templates": true,
+        "read_private_aggregator-records": true,
+        "edit_aggregator-records": true,
+        "edit_others_aggregator-records": true,
+        "edit_private_aggregator-records": true,
+        "edit_published_aggregator-records": true,
+        "delete_aggregator-records": true,
+        "delete_others_aggregator-records": true,
+        "delete_private_aggregator-records": true,
+        "delete_published_aggregator-records": true,
+        "publish_aggregator-records": true,
+        "administrator": true
+      },
+      "extra_capabilities": {
+        "administrator": true
+      },
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/45b20ba529cb9d86dbdd82844cfda43e836c85c874d57c656484aeecbbf93dbd?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/45b20ba529cb9d86dbdd82844cfda43e836c85c874d57c656484aeecbbf93dbd?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/45b20ba529cb9d86dbdd82844cfda43e836c85c874d57c656484aeecbbf93dbd?s=96&d=mm&r=g"
+      },
+      "meta": {
+        "persisted_preferences": {
+          "core": {
+            "isComplementaryAreaVisible": true
+          },
+          "core/edit-post": {
+            "welcomeGuide": false
+          },
+          "_modified": "2025-09-23T06:17:07.433Z"
+        }
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users/4",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/users"
+          }
+        ]
+      }
+    }
+  ],
+  "site-health": {
+    "status": 404,
+    "body": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+  },
+  "gutenberg-templates": {
+    "status": 404,
+    "body": "{\"code\":\"rest_no_route\",\"message\":\"No route was found matching the URL and request method.\",\"data\":{\"status\":404}}"
+  },
+  "spectra-v1": {
+    "status": 200,
+    "body": "{\"namespace\":\"spectra\\/v1\",\"routes\":{\"\\/spectra\\/v1\":{\"namespace\":\"spectra\\/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"spectra\\/v1\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/spectra\\/v1\"}]}},\"\\/spectra\\/v1\\/all_taxonomy\":{\"namespace\":\"spectra\\/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/spectra\\/v1\\/all_taxonomy\"}]}},\"\\/spectra\\/v1\\/editor\":{\"namespace\":\"spectra\\/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/spectra\\/v1\\/editor\"}]}},\"\\/spectra\\/v1\\/check-custom-fields-support\":{\"namespace\":\"spectra\\/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":[]}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/spectra\\/v1\\/check-custom-fields-support\"}]}}},\"_links\":{\"up\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/\"}]}}"
+  },
+  "bsf-core-v1": {
+    "status": 200,
+    "body": "{\"namespace\":\"bsf-core\\/v1\",\"routes\":{\"\\/bsf-core\\/v1\":{\"namespace\":\"bsf-core\\/v1\",\"methods\":[\"GET\"],\"endpoints\":[{\"methods\":[\"GET\"],\"args\":{\"namespace\":{\"default\":\"bsf-core\\/v1\",\"required\":false},\"context\":{\"default\":\"view\",\"required\":false}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/bsf-core\\/v1\"}]}},\"\\/bsf-core\\/v1\\/license\\/activate\":{\"namespace\":\"bsf-core\\/v1\",\"methods\":[\"POST\"],\"endpoints\":[{\"methods\":[\"POST\"],\"args\":{\"product-id\":{\"type\":\"string\",\"required\":true},\"license-key\":{\"type\":\"string\",\"required\":true}}}],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/bsf-core\\/v1\\/license\\/activate\"}]}}},\"_links\":{\"up\":[{\"href\":\"https:\\/\\/www.hualien.cloud\\/wp-json\\/\"}]}}"
+  }
+}

@@ -1,0 +1,55 @@
+/* ========================================================================
+   花蓮雲基地 — Design Tokens
+   Palette inspired by Hualien: ink, paper, mountain moss, sunrise clay, mist
+   ======================================================================== */
+
+html {
+  color-scheme: light;
+}
+
+:root {
+  /* Color */
+  --ink: #1a1815;
+  --ink-soft: #2c2922;
+  --ink-mute: #5d574c;
+  --paper: #f5f0e6;
+  --paper-warm: #ebe5d7;
+  --mist: #d8d3c4;
+  --moss: #3d4d36;
+  --moss-deep: #2a3625;
+  --moss-lit: #5e7252;
+  --clay: #c45a30;
+  --clay-soft: #d97a52;
+  --sky: #a4b6bd;
+  --rule: rgba(26, 24, 21, 0.12);
+  --rule-strong: rgba(26, 24, 21, 0.32);
+
+  /* Type */
+  --f-display: var(--font-fraunces), var(--font-noto-serif-tc), Georgia, serif;
+  --f-display-tc: var(--font-noto-serif-tc), var(--font-fraunces), Georgia, serif;
+  --f-body: var(--font-manrope), var(--font-noto-sans-tc), system-ui, sans-serif;
+  --f-body-tc: var(--font-noto-sans-tc), var(--font-manrope), system-ui, sans-serif;
+  --f-mono: var(--font-jetbrains), ui-monospace, 'SF Mono', monospace;
+
+  /* Scale */
+  --t-2xs: 0.6875rem;  /* 11 */
+  --t-xs:  0.75rem;    /* 12 */
+  --t-sm:  0.875rem;   /* 14 */
+  --t-md:  1rem;       /* 16 */
+  --t-lg:  1.125rem;   /* 18 */
+  --t-xl:  1.375rem;   /* 22 */
+  --t-2xl: 1.75rem;    /* 28 */
+  --t-3xl: 2.25rem;    /* 36 */
+  --t-4xl: 3rem;       /* 48 */
+  --t-5xl: 4.25rem;    /* 68 */
+  --t-6xl: 6rem;       /* 96 */
+
+  /* Layout */
+  --max-w: 1320px;
+  --gut: clamp(1.25rem, 4vw, 3rem);
+  --rail: clamp(1rem, 5vw, 5rem);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}

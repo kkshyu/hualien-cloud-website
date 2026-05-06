@@ -1,0 +1,218 @@
+/* ========================================================================
+   花蓮雲基地 — Payload Admin theme
+   Mirrors the public-site palette so the admin feels part of the same brand.
+   ======================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600&family=Noto+Sans+TC:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root,
+[data-theme='light'] {
+  /* Brand palette */
+  --hc-ink: #1a1815;
+  --hc-paper: #f5f0e6;
+  --hc-paper-warm: #ebe5d7;
+  --hc-mist: #d8d3c4;
+  --hc-moss: #3d4d36;
+  --hc-moss-deep: #2a3625;
+  --hc-clay: #c45a30;
+
+  /* Typography */
+  --font-body: 'Noto Sans TC', 'Manrope', system-ui, sans-serif;
+  --font-serif: 'Noto Serif TC', 'Fraunces', Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Override Payload's theme tokens (light mode) */
+  --theme-bg: var(--hc-paper);
+  --theme-input-bg: #ffffff;
+  --theme-elevation-0: var(--hc-paper);
+  --theme-elevation-50: #fbf8f1;
+  --theme-elevation-100: #ffffff;
+  --theme-elevation-150: #faf6ec;
+  --theme-elevation-200: var(--hc-paper-warm);
+  --theme-elevation-300: var(--hc-mist);
+
+  --theme-text: var(--hc-ink);
+  --theme-text-light: rgba(26, 24, 21, 0.6);
+
+  --theme-success-500: var(--hc-moss);
+  --theme-success-400: #4f6444;
+
+  --theme-warning-500: #d97a52;
+  --theme-error-500: #b94327;
+
+  --color-base-0: #ffffff;
+  --color-base-50: #fbf8f1;
+  --color-base-100: #f5f0e6;
+  --color-base-150: #ebe5d7;
+  --color-base-200: #ddd6c4;
+  --color-base-300: #c0b9a4;
+  --color-base-500: #5d574c;
+  --color-base-700: #2c2922;
+  --color-base-800: #1a1815;
+  --color-base-900: #0d0c0a;
+}
+
+/* Force light theme — admin always uses the cream palette regardless of
+   the user's OS preference or any historical theme cookie.                 */
+html,
+[data-theme='dark'],
+[data-theme] {
+  color-scheme: light !important;
+}
+
+/* Body type overrides — softer, with TC support */
+body,
+.payload__body,
+.app {
+  font-family: var(--font-body) !important;
+  letter-spacing: 0.005em;
+}
+
+/* Headings get Noto Serif TC for that editorial feel */
+h1, h2, h3, h4, h5,
+.collection-list__heading,
+.dashboard__heading,
+.collection-edit__heading {
+  font-family: var(--font-serif) !important;
+  letter-spacing: -0.005em;
+  font-weight: 500;
+}
+
+/* Top-left brand area */
+.nav .nav__header,
+.nav__header {
+  border-bottom: 1px solid rgba(26, 24, 21, 0.08);
+}
+
+/* Sidebar / nav */
+.nav {
+  background: var(--hc-paper) !important;
+}
+
+
+.nav .nav-group__label,
+.nav__group-label {
+  font-family: var(--font-mono) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+  color: rgba(26, 24, 21, 0.5) !important;
+}
+
+/* Buttons — replace blue accent with moss */
+.btn--style-primary {
+  background: var(--hc-moss) !important;
+  border-color: var(--hc-moss) !important;
+}
+
+.btn--style-primary:hover,
+.btn--style-primary:focus {
+  background: var(--hc-moss-deep) !important;
+  border-color: var(--hc-moss-deep) !important;
+}
+
+.btn--style-secondary {
+  border-color: var(--hc-ink) !important;
+  color: var(--hc-ink) !important;
+}
+
+/* Logged-in greeting in header */
+.app-header,
+.app-header__user,
+.step-nav {
+  font-family: var(--font-mono) !important;
+  letter-spacing: 0.06em;
+}
+
+/* Log-in / first-user create pages */
+.login,
+.create-first-user {
+  background:
+    radial-gradient(ellipse at top right, rgba(196, 90, 48, 0.06), transparent 40%),
+    radial-gradient(ellipse at bottom left, rgba(61, 77, 54, 0.08), transparent 50%),
+    var(--hc-paper) !important;
+}
+
+.login__brand,
+.create-first-user__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Forms */
+.field-type {
+  font-family: var(--font-body);
+}
+
+.field-type__label,
+.field-label,
+.label {
+  font-family: var(--font-body) !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Inputs — slightly warmer borders */
+input,
+textarea,
+.rich-text {
+  border-radius: 4px !important;
+}
+
+/* Lexical rich-text editor toolbar */
+.rich-text-lexical .toolbar {
+  border-color: rgba(26, 24, 21, 0.1) !important;
+}
+
+/* Dashboard cards */
+.dashboard__card {
+  border: 1px solid rgba(26, 24, 21, 0.08) !important;
+  background: #ffffff !important;
+  border-radius: 4px !important;
+}
+
+.dashboard__card-list .card__title {
+  font-family: var(--font-serif) !important;
+  font-weight: 500;
+}
+
+/* Collection list rows */
+.collection-list__cell,
+.list-controls {
+  font-family: var(--font-body);
+}
+
+/* Status pills (drafts/published) */
+.pill {
+  font-family: var(--font-mono) !important;
+  font-size: 0.7rem !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+}
+
+.pill--has-color-success { background: var(--hc-moss) !important; color: var(--hc-paper) !important; }
+.pill--has-color-warning { background: var(--hc-clay) !important; color: var(--hc-paper) !important; }
+
+/* Editorial detail: small ridge accent on dashboard heading */
+.dashboard h1::after {
+  content: '— 花蓮 ⛰  Hualien Cloud Hub';
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(26, 24, 21, 0.5);
+  margin-top: 0.6rem;
+  font-weight: 400;
+}
+
+/* Login title */
+.login__brand h1,
+.create-first-user__brand h1 {
+  font-family: var(--font-serif) !important;
+  font-size: 2rem !important;
+  letter-spacing: -0.01em !important;
+  font-weight: 400 !important;
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.zeabur.app/template.json",
+  "name": "hualien-cloud-website",
+  "description": "花蓮雲基地官方網站（Payload CMS + Next.js + Postgres + MinIO）",
+  "services": [
+    {
+      "name": "web",
+      "template": "GIT",
+      "icon": "https://payloadcms.com/images/payload-favicon.svg",
+      "spec": {
+        "ports": [
+          { "id": "web", "port": 3000, "type": "HTTP" }
+        ],
+        "env": {
+          "PORT": { "default": "3000" },
+          "PAYLOAD_SECRET": { "expose": false, "description": "長隨機字串，用於簽署 token / cookie" },
+          "DATABASE_URL": { "default": "${POSTGRES_CONNECTION_STRING}", "expose": false },
+          "S3_ENDPOINT": { "default": "http://${MINIO_HOST}:9000", "expose": false },
+          "S3_REGION": { "default": "us-east-1" },
+          "S3_BUCKET": { "default": "hualien-media" },
+          "S3_ACCESS_KEY_ID": { "default": "${MINIO_ROOT_USER}", "expose": false },
+          "S3_SECRET_ACCESS_KEY": { "default": "${MINIO_ROOT_PASSWORD}", "expose": false },
+          "S3_FORCE_PATH_STYLE": { "default": "true" },
+          "NEXT_PUBLIC_SITE_URL": { "default": "https://${ZEABUR_WEB_DOMAIN}" },
+          "NEXT_PUBLIC_MEDIA_BASE_URL": { "default": "https://${ZEABUR_MINIO_DOMAIN}" }
+        }
+      }
+    },
+    {
+      "name": "postgres",
+      "template": "PREBUILT",
+      "spec": { "templateID": "POSTGRESQL" }
+    },
+    {
+      "name": "minio",
+      "template": "PREBUILT",
+      "spec": { "templateID": "MINIO" }
+    }
+  ]
+}

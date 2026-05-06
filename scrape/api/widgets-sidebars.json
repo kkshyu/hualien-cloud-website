@@ -1,0 +1,1031 @@
+{
+  "sidebars": [
+    {
+      "id": "wp_inactive_widgets",
+      "name": "Inactive widgets",
+      "description": "",
+      "class": "",
+      "before_widget": "",
+      "after_widget": "",
+      "before_title": "",
+      "after_title": "",
+      "status": "inactive",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/wp_inactive_widgets",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=wp_inactive_widgets"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "sidebar-1",
+      "name": "Main Sidebar",
+      "description": "Add widgets here.",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6"
+      ],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=sidebar-1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-1",
+      "name": "Footer Widget Area 1",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-1",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-2",
+      "name": "Footer Widget Area 2",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-2",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-2"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-3",
+      "name": "Footer Widget Area 3",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-3",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-3"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-4",
+      "name": "Footer Widget Area 4",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-4",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-4"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-5",
+      "name": "Footer Widget Area 5",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-5",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-5"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-footer-sidebar-6",
+      "name": "Footer Widget Area 6",
+      "description": "",
+      "class": "",
+      "before_widget": "<div class=\"ct-widget is-layout-flow %2$s\" id=\"%1$s\">",
+      "after_widget": "</div>",
+      "before_title": "<h3 class=\"widget-title\">",
+      "after_title": "</h3>",
+      "status": "active",
+      "widgets": [],
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/ct-footer-sidebar-6",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+              ]
+            }
+          }
+        ],
+        "wp:widget": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets?sidebar=ct-footer-sidebar-6"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "block-2",
+      "id_base": "block",
+      "sidebar": "sidebar-1",
+      "rendered": "<div class=\"ct-widget is-layout-flow widget_block widget_search\" id=\"block-2\"><form role=\"search\" method=\"get\" action=\"https://www.hualien.cloud/\" class=\"wp-block-search__button-outside wp-block-search__text-button wp-block-search\"    ><label class=\"wp-block-search__label\" for=\"wp-block-search__input-1\" >Search</label><div class=\"wp-block-search__inside-wrapper \" ><input class=\"wp-block-search__input\" id=\"wp-block-search__input-1\" placeholder=\"\" value=\"\" type=\"search\" name=\"s\" required /><button aria-label=\"Search\" class=\"wp-block-search__button wp-element-button\" type=\"submit\" >Search</button></div></form></div>",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets/block-2",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets"
+          }
+        ],
+        "about": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block"
+          }
+        ],
+        "wp:sidebar": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1/"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "block-3",
+      "id_base": "block",
+      "sidebar": "sidebar-1",
+      "rendered": "<div class=\"ct-widget is-layout-flow widget_block\" id=\"block-3\"><div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\"><h2 class=\"wp-block-heading\">Recent Posts</h2><ul class=\"wp-block-latest-posts__list wp-block-latest-posts\"><li><a class=\"wp-block-latest-posts__post-title\" href=\"https://www.hualien.cloud/uncategorized/812/\">花蓮三三小聚 【三月】</a></li>\n</ul></div></div>",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets/block-3",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets"
+          }
+        ],
+        "about": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block"
+          }
+        ],
+        "wp:sidebar": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1/"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "block-4",
+      "id_base": "block",
+      "sidebar": "sidebar-1",
+      "rendered": "<div class=\"ct-widget is-layout-flow widget_block\" id=\"block-4\"><div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\"><h2 class=\"wp-block-heading\">Recent Comments</h2><div class=\"no-comments wp-block-latest-comments\">No comments to show.</div></div></div>",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets/block-4",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets"
+          }
+        ],
+        "about": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block"
+          }
+        ],
+        "wp:sidebar": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1/"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "block-5",
+      "id_base": "block",
+      "sidebar": "sidebar-1",
+      "rendered": "<div class=\"ct-widget is-layout-flow widget_block\" id=\"block-5\"><div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\"><h2 class=\"wp-block-heading\">Archives</h2><ul class=\"wp-block-archives-list wp-block-archives\">\t<li><a href='https://www.hualien.cloud/2026/03/'>March 2026</a></li>\n</ul></div></div>",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets/block-5",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets"
+          }
+        ],
+        "about": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block"
+          }
+        ],
+        "wp:sidebar": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1/"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "block-6",
+      "id_base": "block",
+      "sidebar": "sidebar-1",
+      "rendered": "<div class=\"ct-widget is-layout-flow widget_block\" id=\"block-6\"><div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\"><h2 class=\"wp-block-heading\">Categories</h2><ul class=\"wp-block-categories-list wp-block-categories\">\t<li class=\"cat-item cat-item-1\"><a href=\"https://www.hualien.cloud/category/uncategorized/\">Uncategorized</a>\n</li>\n</ul></div></div>",
+      "_links": {
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets/block-6",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widgets"
+          }
+        ],
+        "about": [
+          {
+            "embeddable": true,
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block"
+          }
+        ],
+        "wp:sidebar": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/sidebars/sidebar-1/"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "widget-types?_locale=user": [
+    {
+      "id": "archives",
+      "name": "Archives",
+      "description": "A monthly archive of your site’s Posts.",
+      "is_multi": true,
+      "classname": "widget_archive",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/archives",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block",
+      "name": "Block",
+      "description": "A widget containing a block.",
+      "is_multi": true,
+      "classname": "widget_block",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/block",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "description": "A calendar of your site’s posts.",
+      "is_multi": true,
+      "classname": "widget_calendar",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/calendar",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "categories",
+      "name": "Categories",
+      "description": "A list or dropdown of categories.",
+      "is_multi": true,
+      "classname": "widget_categories",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/categories",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "custom_html",
+      "name": "Custom HTML",
+      "description": "Arbitrary HTML code.",
+      "is_multi": true,
+      "classname": "widget_custom_html",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/custom_html",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "media_audio",
+      "name": "Audio",
+      "description": "Displays an audio player.",
+      "is_multi": true,
+      "classname": "widget_media_audio",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/media_audio",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "media_gallery",
+      "name": "Gallery",
+      "description": "Displays an image gallery.",
+      "is_multi": true,
+      "classname": "widget_media_gallery",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/media_gallery",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "media_image",
+      "name": "Image",
+      "description": "Displays an image.",
+      "is_multi": true,
+      "classname": "widget_media_image",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/media_image",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "media_video",
+      "name": "Video",
+      "description": "Displays a video from the media library or from YouTube, Vimeo, or another provider.",
+      "is_multi": true,
+      "classname": "widget_media_video",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/media_video",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "description": "Login, RSS, & WordPress.org links.",
+      "is_multi": true,
+      "classname": "widget_meta",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/meta",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "nav_menu",
+      "name": "Navigation Menu",
+      "description": "Add a navigation menu to your sidebar.",
+      "is_multi": true,
+      "classname": "widget_nav_menu",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/nav_menu",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "pages",
+      "name": "Pages",
+      "description": "A list of your site’s Pages.",
+      "is_multi": true,
+      "classname": "widget_pages",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/pages",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recent-comments",
+      "name": "Recent Comments",
+      "description": "Your site’s most recent comments.",
+      "is_multi": true,
+      "classname": "widget_recent_comments",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/recent-comments",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "recent-posts",
+      "name": "Recent Posts",
+      "description": "Your site’s most recent Posts.",
+      "is_multi": true,
+      "classname": "widget_recent_entries",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/recent-posts",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "rss",
+      "name": "RSS",
+      "description": "Entries from any RSS or Atom feed.",
+      "is_multi": true,
+      "classname": "widget_rss",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/rss",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "description": "A search form for your site.",
+      "is_multi": true,
+      "classname": "widget_search",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/search",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tag_cloud",
+      "name": "Tag Cloud",
+      "description": "A cloud of your most used tags.",
+      "is_multi": true,
+      "classname": "widget_tag_cloud",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/tag_cloud",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "text",
+      "name": "Text",
+      "description": "Arbitrary text.",
+      "is_multi": true,
+      "classname": "widget_text",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types"
+          }
+        ],
+        "self": [
+          {
+            "href": "https://www.hualien.cloud/wp-json/wp/v2/widget-types/text",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
