@@ -53,49 +53,53 @@ export function HeaderClient({ lang, brandWord, brandTagline, links, langSwitchL
   }, [open])
 
   return (
-    <header className="site-header">
-      <div className="site-header__inner">
-        <Link
-          href={`/${lang}`}
-          className="brand brand--logo"
-          onClick={() => setOpen(false)}
-          aria-label={brandWord}
-        >
-          <img
-            src="/hualien-cloud-logo.svg"
-            alt={brandWord}
-            className="brand__logo"
-          />
-        </Link>
-
-        <nav className="nav-main" aria-label={lang === 'zh' ? '主選單' : 'Primary'}>
-          <ul>
-            {links.map((l, i) => (
-              <li key={i}><Link href={l.href}>{l.label}</Link></li>
-            ))}
-          </ul>
-        </nav>
-
-        <div className="nav-aux">
-          <div className="locale-switch" aria-label={langSwitchLabel}>
-            <Link href={zhHref} aria-current={lang === 'zh' ? 'true' : undefined}>中文</Link>
-            <Link href={enHref} aria-current={lang === 'en' ? 'true' : undefined}>EN</Link>
-          </div>
-          <button
-            type="button"
-            className="nav-toggle"
-            aria-label={open ? (lang === 'zh' ? '關閉選單' : 'Close menu') : (lang === 'zh' ? '開啟選單' : 'Open menu')}
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
+    <>
+      <header className="site-header">
+        <div className="site-header__inner">
+          <Link
+            href={`/${lang}`}
+            className="brand brand--logo"
+            onClick={() => setOpen(false)}
+            aria-label={brandWord}
           >
-            <span className={`bars ${open ? 'open' : ''}`} aria-hidden="true">
-              <span /><span /><span />
-            </span>
-          </button>
-        </div>
-      </div>
+            <img
+              src="/hualien-cloud-logo.svg"
+              alt={brandWord}
+              className="brand__logo"
+            />
+          </Link>
 
-      {/* Mobile overlay menu */}
+          <nav className="nav-main" aria-label={lang === 'zh' ? '主選單' : 'Primary'}>
+            <ul>
+              {links.map((l, i) => (
+                <li key={i}><Link href={l.href}>{l.label}</Link></li>
+              ))}
+            </ul>
+          </nav>
+
+          <div className="nav-aux">
+            <div className="locale-switch" aria-label={langSwitchLabel}>
+              <Link href={zhHref} aria-current={lang === 'zh' ? 'true' : undefined}>中文</Link>
+              <Link href={enHref} aria-current={lang === 'en' ? 'true' : undefined}>EN</Link>
+            </div>
+            <button
+              type="button"
+              className="nav-toggle"
+              aria-label={open ? (lang === 'zh' ? '關閉選單' : 'Close menu') : (lang === 'zh' ? '開啟選單' : 'Open menu')}
+              aria-expanded={open}
+              onClick={() => setOpen((v) => !v)}
+            >
+              <span className={`bars ${open ? 'open' : ''}`} aria-hidden="true">
+                <span /><span /><span />
+              </span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Sibling of <header>, not a child — the header's backdrop-filter
+          establishes a containing block, which would otherwise trap this
+          fixed-positioned overlay inside the header's own box. */}
       <div className={`nav-overlay ${open ? 'open' : ''}`} role="dialog" aria-modal="true" aria-hidden={!open}>
         <ul>
           {links.map((l, i) => (
@@ -110,6 +114,6 @@ export function HeaderClient({ lang, brandWord, brandTagline, links, langSwitchL
           <Link href={enHref} aria-current={lang === 'en' ? 'true' : undefined}>English</Link>
         </div>
       </div>
-    </header>
+    </>
   )
 }

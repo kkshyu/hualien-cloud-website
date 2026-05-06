@@ -166,7 +166,9 @@ p {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 50;
+  /* Above .nav-overlay (60) so logo + close button stay tappable while the
+     menu is open. */
+  z-index: 70;
   background: color-mix(in oklab, var(--paper) 86%, transparent);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -400,7 +402,10 @@ p {
    Hero (used on home + page templates)
    ======================================================================== */
 .hero {
-  padding: clamp(3.5rem, 8vw, 7rem) 0 clamp(2rem, 6vw, 4rem);
+  /* Vertical only — horizontal rail comes from .shell. Using shorthand here
+     would clobber .shell's `padding: 0 var(--rail)` and pin content to x=0. */
+  padding-top: clamp(3.5rem, 8vw, 7rem);
+  padding-bottom: clamp(2rem, 6vw, 4rem);
 }
 
 .hero__grid {
@@ -562,7 +567,9 @@ p {
    Article header
    ======================================================================== */
 .article-head {
-  padding: clamp(3rem, 7vw, 5.5rem) 0 clamp(2rem, 4vw, 3rem);
+  /* Vertical only — horizontal rail comes from the .shell sibling class. */
+  padding-top: clamp(3rem, 7vw, 5.5rem);
+  padding-bottom: clamp(2rem, 4vw, 3rem);
   display: grid;
   gap: 1.25rem;
 }
@@ -602,7 +609,8 @@ p {
 }
 
 .article-foot {
-  padding: 4rem 0 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -610,7 +618,8 @@ p {
    News index — magazine layout
    ======================================================================== */
 .news-index {
-  padding: clamp(3rem, 7vw, 6rem) 0 clamp(3rem, 6vw, 5rem);
+  padding-top: clamp(3rem, 7vw, 6rem);
+  padding-bottom: clamp(3rem, 6vw, 5rem);
 }
 
 .news-feature {
@@ -825,7 +834,8 @@ p {
    Programmes — what we host (home)
    ======================================================================== */
 .programmes {
-  padding: clamp(4rem, 8vw, 7rem) 0;
+  padding-top: clamp(4rem, 8vw, 7rem);
+  padding-bottom: clamp(4rem, 8vw, 7rem);
   border-top: 1px solid var(--rule);
   display: grid;
   grid-template-columns: 1fr;
@@ -912,7 +922,8 @@ p {
    The Hualien Life — visit teaser
    ======================================================================== */
 .visit {
-  padding: clamp(4rem, 8vw, 7rem) 0;
+  padding-top: clamp(4rem, 8vw, 7rem);
+  padding-bottom: clamp(4rem, 8vw, 7rem);
   border-top: 1px solid var(--rule);
   display: grid;
   grid-template-columns: 1fr;
@@ -981,7 +992,8 @@ p {
    Contact strip
    ======================================================================== */
 .contact-strip {
-  padding: clamp(4rem, 8vw, 6rem) 0;
+  padding-top: clamp(4rem, 8vw, 6rem);
+  padding-bottom: clamp(4rem, 8vw, 6rem);
   border-top: 1px solid var(--rule);
   display: grid;
   grid-template-columns: 1fr;
@@ -1013,7 +1025,8 @@ p {
    Featured news strip on home
    ======================================================================== */
 .feature-strip {
-  padding: clamp(3rem, 6vw, 5rem) 0;
+  padding-top: clamp(3rem, 6vw, 5rem);
+  padding-bottom: clamp(3rem, 6vw, 5rem);
   border-top: 1px solid var(--rule);
 }
 
@@ -1042,7 +1055,8 @@ p {
    Section: intro lock-up
    ======================================================================== */
 .intro {
-  padding: clamp(4rem, 8vw, 7rem) 0;
+  padding-top: clamp(4rem, 8vw, 7rem);
+  padding-bottom: clamp(4rem, 8vw, 7rem);
   display: grid;
   grid-template-columns: 1fr;
   gap: clamp(2rem, 5vw, 4rem);
@@ -1251,19 +1265,20 @@ p {
   .brand__logo { height: clamp(2.1rem, 8vw, 2.6rem); max-width: 14rem; }
 
   /* Hero */
-  .hero { padding: 3rem 0 2rem; }
+  .hero { padding-top: 3rem; padding-bottom: 2rem; }
   .hero__title { font-size: clamp(2rem, 12vw, 3.5rem); line-height: 1.05; }
   .hero__sub { font-size: 1.05rem; line-height: 1.6; }
   .hero__media { margin-top: 1.5rem; }
 
   /* Intro */
-  .intro { padding: 3.5rem 0; }
+  .intro { padding-top: 3.5rem; padding-bottom: 3.5rem; }
   .intro .section-label { padding-top: 0; }
   .intro__copy { font-size: 1.075rem; line-height: 1.7; }
 
   /* Programmes */
   .programmes {
-    padding: 3.5rem 0;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
@@ -1280,7 +1295,7 @@ p {
   .programme-item p { font-size: 1rem; }
 
   /* Visit strip stacks */
-  .visit { padding: 3rem 0; }
+  .visit { padding-top: 3rem; padding-bottom: 3rem; }
   .visit__strip {
     grid-template-columns: 1fr;
     height: auto;
@@ -1299,7 +1314,7 @@ p {
   }
 
   /* Contact strip stacks */
-  .contact-strip { padding: 3rem 0; grid-template-columns: 1fr; }
+  .contact-strip { padding-top: 3rem; padding-bottom: 3rem; grid-template-columns: 1fr; }
 
   /* Feature strip head wraps */
   .feature-strip__head {
@@ -1317,7 +1332,7 @@ p {
   .news-grid { gap: 2.5rem 1.5rem; padding-top: 2rem; }
 
   /* Article head */
-  .article-head { padding: 3rem 0 1.75rem; }
+  .article-head { padding-top: 3rem; padding-bottom: 1.75rem; }
   .article-head h1 { font-size: clamp(1.85rem, 7vw, 2.5rem); }
   .article-cover { margin-bottom: 1.75rem; }
   .article-body { padding: 0 var(--rail); }
