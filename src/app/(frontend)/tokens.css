@@ -46,8 +46,8 @@ html {
 
   /* Layout */
   --max-w: 1320px;
-  --gut: clamp(1.25rem, 4vw, 3rem);
-  --rail: clamp(1rem, 5vw, 5rem);
+  --gut: clamp(1.5rem, 4vw, 3rem);
+  --rail: clamp(1.5rem, 5vw, 5rem);
 
   /* Motion */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
