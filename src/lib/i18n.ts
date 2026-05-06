@@ -87,16 +87,16 @@ export const I18N: Record<Lang, Dict> = {
     homeBadge: 'EST. HUALIEN',
     visitUs: '來訪指南',
     langSwitchLabel: '語言',
-    whatWeHost: '我們提供',
+    whatWeHost: '設施與環境',
     whatWeHostLede:
-      '一個工作的山屋，融合共同工作、社群連結與駐留交流。下面是這裡常常發生的事。',
+      '依山傍海的工作據點。為長駐工作而生的設備：私人工作室、共創空間、雲咖啡、會議室、淋浴間，一次到位。',
     hostItems: [
-      { title: '33 小聚', description: '每月一次，讓在地與來訪者在同一張桌邊認識彼此。' },
-      { title: '實作共創', description: '把點子帶離螢幕，動手做出可見、可摸的作品。' },
-      { title: '客座業師', description: '邀請各領域實踐者來分享他們正在做的事。' },
-      { title: '咖啡主題日', description: '一杯豆子、一個主題，一場慢一點的程序設計。' },
-      { title: '進駐空間', description: '一張桌、一張床，一段在花蓮做事的時間。' },
-      { title: '場地租用', description: '把活動、發表、工作坊放在山與海之間。' },
+      { title: '山海環抱', description: '前有太平洋，後有中央山脈。從工作桌抬頭就是花蓮的地景。' },
+      { title: '私人工作室', description: '可長駐專注的獨立工作室，含衛浴與空調。1 ～ 3 個月為單位的進駐期。' },
+      { title: '共創空間', description: '一樓共用辦公與會議區，最多容納 20 ～ 25 人，適合工作坊與小型發表。' },
+      { title: '私人會議室', description: '可預約的封閉式會議室，配有投影、白板、視訊設備。' },
+      { title: '高速網路', description: '光纖企業級網路，遠端會議、跨時區協作、上傳 4K 都游刃有餘。' },
+      { title: '隨時盥洗', description: '附獨立淋浴間，運動、通勤、海邊回來都能直接沖洗，繼續工作。' },
     ],
     visitTitle: '花蓮印象',
     visitLede:
@@ -104,7 +104,7 @@ export const I18N: Record<Lang, Dict> = {
     visitMore: '看影像紀錄',
     contactTitle: '聯絡',
     contactLede: '想駐留、辦活動、或只是來坐一下，都歡迎寫信給我們。',
-    programmesEyebrow: '— 02 / 服務',
+    programmesEyebrow: '— 02 / 設施',
   },
   en: {
     brandWord: 'Hualien Cloud Hub',
@@ -135,16 +135,16 @@ export const I18N: Record<Lang, Dict> = {
     homeBadge: 'EST. HUALIEN',
     visitUs: 'Plan a visit',
     langSwitchLabel: 'Language',
-    whatWeHost: 'What we host',
+    whatWeHost: 'Facilities & Environment',
     whatWeHostLede:
-      'A working basecamp combining coworking, community gatherings and residency exchanges. Here is what usually happens here.',
+      'A workspace built between mountains and sea — private studios, coworking, Cloud Coffee, meeting rooms and a shower, all under one roof.',
     hostItems: [
-      { title: '33 Exchange', description: 'A monthly meet-up between locals and visiting nomads, around one long table.' },
-      { title: 'Co-Creation', description: 'Workshops where ideas leave the laptop and become things you can hold.' },
-      { title: 'Expertise', description: 'Guest mentors share what they are actually building right now.' },
-      { title: 'Coffee Themes', description: 'A single bag of beans, one topic, a slower kind of programming.' },
-      { title: 'Residencies', description: 'A desk, a bed, and time to make something here.' },
-      { title: 'Venue Rental', description: 'Host events, talks and workshops between mountain and sea.' },
+      { title: 'Between mountain & sea', description: 'The Pacific Ocean to the front, the Central Mountain Range behind. The view from your desk.' },
+      { title: 'Private studios', description: 'Long-stay studios with ensuite bathroom and air conditioning. Residencies run one to three months.' },
+      { title: 'Coworking space', description: 'Ground-floor coworking and meeting area for up to 20–25 — ideal for workshops and small launches.' },
+      { title: 'Private meeting rooms', description: 'Bookable closed-door rooms with projector, whiteboard and video gear.' },
+      { title: 'High-speed internet', description: 'Enterprise-grade fibre — comfortable for video calls, async collaboration and 4K uploads.' },
+      { title: 'Shower on site', description: 'A private shower room — surf, run, commute and rinse off, then keep working.' },
     ],
     visitTitle: 'The Hualien Life',
     visitLede:
@@ -152,7 +152,7 @@ export const I18N: Record<Lang, Dict> = {
     visitMore: 'Browse the library',
     contactTitle: 'Get in touch',
     contactLede: 'Whether you want to stay, host an event, or just stop by — drop us a note.',
-    programmesEyebrow: '— 02 / Programmes',
+    programmesEyebrow: '— 02 / Facilities',
   },
 }
 

@@ -128,15 +128,17 @@ export default async function HomePage({
           <p className="intro__copy">
             {lang === 'zh' ? (
               <>
-                花蓮雲基地是 <em>共創</em>、<em>共學</em>、<em>共生</em> 的工作場域。
+                花蓮雲基地是 <em>共創</em>、<em>共學</em>、<em>共生</em> 的數位遊牧據點。
                 山的一側是中央山脈，另一側是太平洋；
-                我們在中間打造一個讓人留下來的角落。
+                我們在中間打造一個讓人留下來的角落，
+                <em>連結地方與世界的可能</em>。
               </>
             ) : (
               <>
-                Hualien Cloud Hub is a workplace built around <em>shared making</em>,
+                Hualien Cloud Hub is a digital nomad base shaped by <em>shared making</em>,
                 <em> shared learning</em>, and <em>shared living</em>. Tucked between
-                Taiwan&rsquo;s Central Range and the Pacific Ocean.
+                Taiwan&rsquo;s Central Range and the Pacific Ocean —
+                <em> where local meets global</em>.
               </>
             )}
           </p>
@@ -193,15 +195,34 @@ export default async function HomePage({
         )}
       </section>
 
-      {/* ───────────────────────── CLOUD COFFEE ───────────────────────── */}
+      {/* ───────────────────────── HUALIEN 33 ───────────────────────── */}
       <section className="shell programmes">
         <div className="programmes__head">
-          <span className="section-label">— 03 / {lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</span>
-          <h2>{lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</h2>
+          <span className="section-label">
+            — 03 / {lang === 'zh' ? '花蓮三三' : 'Hualien 33'}
+          </span>
+          <h2>
+            {lang === 'zh' ? (
+              <>花蓮三三 <em>每個月的第三個週三</em></>
+            ) : (
+              <>Hualien 33 <em>· every third Wednesday</em></>
+            )}
+          </h2>
           <p>
             {lang === 'zh'
-              ? '工作日的午後，把咖啡、茶與一杯靜下來的時間放在這裡。每週三開放活動，每月第三個週三延伸成課程與小聚。'
-              : 'A weekday afternoon for coffee, tea and a slower hour. Open every Wednesday — and every third Wednesday extends into a class and a meet-up.'}
+              ? '在山海與訊號之間，找回生活的頻率。「三三」不只是一個日期，是我們與自己、與這片土地的約定 — 把忙碌與喘息的交界，留給自己與彼此。'
+              : 'Between mountain, sea and signal — a chance to find the rhythm of your week. "33" is not just a date; it’s an appointment with yourself, with the land, and with each other.'}
+          </p>
+          <p style={{ marginTop: '1rem' }}>
+            {lang === 'zh'
+              ? '標誌上的三座山峰與三陣海浪，象徵花蓮的地景，也代表數位遊牧的三個支柱：'
+              : 'The three peaks and three waves on our mark stand for Hualien’s landscape — and for the three pillars of digital nomad life:'}
+            <br />
+            <strong>
+              {lang === 'zh'
+                ? '自由的靈魂 ｜ 高效的工作 ｜ 深度的連結'
+                : 'A free spirit · focused work · deep connection'}
+            </strong>
           </p>
         </div>
         <div className="programmes__list">
@@ -219,17 +240,17 @@ export default async function HomePage({
             <h3>{lang === 'zh' ? '手沖咖啡專業養成' : 'Hand-drip Coffee Class'}</h3>
             <p>
               {lang === 'zh'
-                ? '每月第三個週三 15:00 – 17:00。由花蓮在地精品咖啡師帶領，從豆子到萃取，讓沖一杯咖啡變成日常的儀式。'
-                : 'Third Wednesday of each month, 15:00 – 17:00. A local specialty barista walks you from bean to brew — making a daily cup feel like ritual.'}
+                ? '每月第三個週三 15:00 – 17:00。由花蓮在地精品咖啡店「波提娜麗」帶領，從豆子到萃取，把沖一杯咖啡變成日常儀式。'
+                : 'Third Wednesday, 15:00 – 17:00. Local roaster Bottega Manli walks the room from bean to brew — making a daily cup feel like ritual.'}
             </p>
           </div>
           <div className="programme-item">
             <span className="num">🌏</span>
-            <h3>{lang === 'zh' ? '花蓮三三小聚' : 'Hualien 33 Meetup'}</h3>
+            <h3>{lang === 'zh' ? '三三小聚' : '33 Meetup'}</h3>
             <p>
               {lang === 'zh'
-                ? '每月第三個週三 18:30 – 20:00。在地與來訪的數位遊牧者圍坐一桌，把這個月在做的事帶上來分享。'
-                : 'Third Wednesday of each month, 18:30 – 20:00. Locals and visiting digital nomads gather around one table to share what they’re working on this month.'}
+                ? '每月第三個週三 18:30 – 20:30。在地與全球的數位遊牧者圍坐一桌，把這個月在做的事帶上來分享。打破遠距工作的孤獨感，讓工程師、設計師、作家在每個第三週像候鳥一樣回到這裡。'
+                : 'Third Wednesday, 18:30 – 20:30. Locals and visiting digital nomads — engineers, designers, writers — share one long table and one month’s worth of work, breaking the solitude of remote life.'}
             </p>
           </div>
         </div>
