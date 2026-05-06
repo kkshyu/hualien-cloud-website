@@ -64,7 +64,8 @@ const MOVE_IN_ZH = `
 </ul>
 
 <h2>申請表單</h2>
-<p>請來信 <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>，附上你的姓名、駐留期間、簡介，以及希望在花蓮做的事，駐點人員會在 3 個工作日內回覆。</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdv22WU1MihSMbt9Tx4-Pzo-wlD_93mwZGLFECdUfRyvZfMzg/viewform?usp=header" target="_blank" rel="noopener">📝 線上申請表單（Google Form）</a></p>
+<p>填寫完成後，駐點人員會在 3 個工作日內回覆審查結果與後續流程。任何問題歡迎來信 <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>。</p>
 `.trim()
 
 const MOVE_IN_EN = `
@@ -121,7 +122,8 @@ const MOVE_IN_EN = `
 </ul>
 
 <h2>Application Form</h2>
-<p>Email <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a> with your name, intended dates, a short bio and what you&rsquo;d like to make in Hualien. Our staff will reply within three working days.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdv22WU1MihSMbt9Tx4-Pzo-wlD_93mwZGLFECdUfRyvZfMzg/viewform?usp=header" target="_blank" rel="noopener">📝 Apply online (Google Form)</a></p>
+<p>Our staff will follow up within three working days with the review outcome and next steps. For other questions, email <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>.</p>
 `.trim()
 
 // ---------- 場地租用 ----------
@@ -173,7 +175,8 @@ const VENUE_ZH = `
 </ol>
 
 <h2>申請</h2>
-<p>請填寫申請表單，並郵寄至 <a href="mailto:sk001054@hl.gov.tw">sk001054@hl.gov.tw</a>，將由專人聯繫後續相關事宜。</p>
+<p>📄 <a href="/api/media/file/%E9%9B%B2%E5%9F%BA%E5%9C%B0%E7%A9%BA%E9%96%93%E7%A7%9F%E5%80%9F%E5%96%AE_1140613.docx.pdf?prefix=media" target="_blank" rel="noopener">下載「雲基地空間租借申請表」（PDF）</a></p>
+<p>請填寫申請表單後郵寄至 <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>，將由專人聯繫後續相關事宜。</p>
 `.trim()
 
 const VENUE_EN = `
@@ -224,7 +227,8 @@ const VENUE_EN = `
 </ol>
 
 <h2>Apply</h2>
-<p>Please fill in the application form and email it to <a href="mailto:sk001054@hl.gov.tw">sk001054@hl.gov.tw</a>; a coordinator will follow up.</p>
+<p>📄 <a href="/api/media/file/%E9%9B%B2%E5%9F%BA%E5%9C%B0%E7%A9%BA%E9%96%93%E7%A7%9F%E5%80%9F%E5%96%AE_1140613.docx.pdf?prefix=media" target="_blank" rel="noopener">Download the venue rental application form (PDF)</a></p>
+<p>Fill in the form and email it to <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>; a coordinator will follow up.</p>
 `.trim()
 
 async function findCoverIdByFilename(payload: any, filename: string) {

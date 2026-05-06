@@ -227,7 +227,7 @@ export default async function HomePage({
         </div>
         <div className="programmes__list">
           <div className="programme-item">
-            <span className="num">☕</span>
+            <span className="num">{lang === 'zh' ? '每週三 / WED' : 'EVERY WED'}</span>
             <h3>{lang === 'zh' ? '雲咖啡' : 'Cloud Coffee'}</h3>
             <p>
               {lang === 'zh'
@@ -236,7 +236,7 @@ export default async function HomePage({
             </p>
           </div>
           <div className="programme-item">
-            <span className="num">☕</span>
+            <span className="num">{lang === 'zh' ? '每月第三週 / 3RD WED' : '3RD WEDNESDAY'}</span>
             <h3>{lang === 'zh' ? '手沖咖啡專業養成' : 'Hand-drip Coffee Class'}</h3>
             <p>
               {lang === 'zh'
@@ -245,7 +245,7 @@ export default async function HomePage({
             </p>
           </div>
           <div className="programme-item">
-            <span className="num">🌏</span>
+            <span className="num">{lang === 'zh' ? '每月第三週 / 18:30' : '3RD WED · 18:30'}</span>
             <h3>{lang === 'zh' ? '三三小聚' : '33 Meetup'}</h3>
             <p>
               {lang === 'zh'

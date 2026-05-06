@@ -86,22 +86,22 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: clamp(var(--t-3xl), 7vw, var(--t-6xl));
-  line-height: 1.04;
-  letter-spacing: -0.025em;
-  font-weight: 400;
-}
-
-h2 {
-  font-size: clamp(var(--t-2xl), 4.5vw, var(--t-4xl));
-  line-height: 1.1;
+  line-height: 1.05;
   letter-spacing: -0.02em;
   font-weight: 500;
 }
 
+h2 {
+  font-size: clamp(var(--t-2xl), 4.5vw, var(--t-4xl));
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
 h3 {
   font-size: var(--t-xl);
-  line-height: 1.25;
-  font-weight: 500;
+  line-height: 1.3;
+  font-weight: 600;
 }
 
 p {
@@ -349,7 +349,7 @@ p {
   font-family: var(--f-display);
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
-  font-weight: 300;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -507,7 +507,7 @@ p {
   font-family: var(--f-display);
   font-size: var(--t-2xl);
   font-style: italic;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.3;
   margin: 2em 0;
   padding-left: 1.25em;
@@ -853,18 +853,28 @@ p {
   margin-bottom: 1rem;
 }
 
+/* When .num holds an emoji/icon (any non-numeric symbol), make it visible. */
+.programme-item .num:not(:has(*)) {
+  /* fall-through for browsers without :has — overridden below by font-size */
+}
+.programme-item .num {
+  min-height: 1.5em;
+  font-size: clamp(0.78rem, 1.4vw, 0.95rem);
+}
+
 .programme-item h3 {
   font-family: var(--f-display-tc);
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0 0 0.6rem;
   color: var(--ink);
+  letter-spacing: 0.01em;
 }
 
 .programme-item p {
-  font-size: 0.95rem;
+  font-size: 1.0625rem;
   color: var(--ink-mute);
-  line-height: 1.55;
+  line-height: 1.65;
   margin: 0;
 }
 
