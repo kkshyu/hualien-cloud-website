@@ -227,6 +227,9 @@ export interface Post {
   slug: string;
   excerpt?: string | null;
   cover?: (number | null) | Media;
+  /**
+   * 直接在編輯器中輸入內容，會自動排版。可使用標題、清單、連結、表格、圖片等。
+   */
   body?: {
     root: {
       type: string;
@@ -242,9 +245,6 @@ export interface Post {
     };
     [k: string]: unknown;
   } | null;
-  /**
-   * 只在尚未用編輯器重建內文時使用；上方「內文」已填寫時會優先顯示內文
-   */
   legacyHtml?: string | null;
   categories?: (number | Category)[] | null;
   publishedAt?: string | null;
@@ -281,6 +281,9 @@ export interface Page {
     subheading?: string | null;
     image?: (number | null) | Media;
   };
+  /**
+   * 直接在編輯器中輸入內容，會自動排版。可使用標題、清單、連結、表格、圖片等。
+   */
   body?: {
     root: {
       type: string;
@@ -296,9 +299,6 @@ export interface Page {
     };
     [k: string]: unknown;
   } | null;
-  /**
-   * 只在尚未用編輯器重建內文時使用；上方「內文」已填寫時會優先顯示內文
-   */
   legacyHtml?: string | null;
   seo?: {
     metaTitle?: string | null;

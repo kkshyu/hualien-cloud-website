@@ -48,7 +48,7 @@ type Dict = {
   langSwitchLabel: string
   whatWeHost: string
   whatWeHostLede: string
-  hostItems: Array<{ title: string; description: string }>
+  hostItems: Array<{ title: string; description: string; image?: string }>
   visitTitle: string
   visitLede: string
   visitMore: string
@@ -83,20 +83,43 @@ export const I18N: Record<Lang, Dict> = {
     topics: '主題',
     newsLatest: '最新消息',
     homeIntro:
-      '在中央山脈與太平洋之間，我們搭起數位遊牧據點。\n讓人留下來，讓事情慢慢長出來。',
+      '歡迎來到花蓮雲基地！讓我們一起在太平洋風的吹拂下，\n開啟數位遊牧的新篇章。',
     homeBadge: 'EST. HUALIEN',
     visitUs: '來訪指南',
     langSwitchLabel: '語言',
-    whatWeHost: '設施與環境',
-    whatWeHostLede:
-      '依山傍海的工作據點。為長駐工作而生的設備：私人工作室、共創空間、雲咖啡、會議室、淋浴間，一次到位。',
+    whatWeHost: '環境與設施',
+    whatWeHostLede: '',
     hostItems: [
-      { title: '山海環抱', description: '前有太平洋，後有中央山脈。從工作桌抬頭就是花蓮的地景。' },
-      { title: '私人工作室', description: '可長駐專注的獨立工作室，含衛浴與空調。1 ～ 3 個月為單位的進駐期。' },
-      { title: '共創空間', description: '一樓共用辦公與會議區，最多容納 20 ～ 25 人，適合工作坊與小型發表。' },
-      { title: '私人會議室', description: '可預約的封閉式會議室，配有投影、白板、視訊設備。' },
-      { title: '高速網路', description: '光纖企業級網路，遠端會議、跨時區協作、上傳 4K 都游刃有餘。' },
-      { title: '隨時盥洗', description: '附獨立淋浴間，運動、通勤、海邊回來都能直接沖洗，繼續工作。' },
+      {
+        title: '山海環抱',
+        description: '前有太平洋、後有中央山脈，從工作桌一抬頭即擁有花蓮的遼闊。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: '地理位置',
+        description: '走路 10 分鐘內有多種美食、便利商店、美崙田徑場，生活機能便利。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: '獨立進駐空間',
+        description: '環境優美、設備齊全的個人工作室，含有獨立的衛浴與空調。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: '共創空間',
+        description: '能激發創意靈感的場域，最多容納 20 – 25 人，適合工作坊與小型交流會。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: '小型會議室',
+        description: '預約制小型會議室，配有投影、白板、視訊麥克風設備。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: '高速網路',
+        description: '與世界連結不卡卡，上傳下載都輕鬆。',
+        // image filled via CMS / public folder once photos are uploaded
+      },
     ],
     visitTitle: '花蓮印象',
     visitLede:
@@ -131,20 +154,43 @@ export const I18N: Record<Lang, Dict> = {
     topics: 'Topics',
     newsLatest: 'Latest',
     homeIntro:
-      'Between the Central Mountain Range and the Pacific,\nwe built a basecamp where work and life slow down on purpose.',
+      'Welcome to Hualien Cloud Hub —\nstart your new chapter as a digital nomad on the breath of the Pacific.',
     homeBadge: 'EST. HUALIEN',
     visitUs: 'Plan a visit',
     langSwitchLabel: 'Language',
-    whatWeHost: 'Facilities & Environment',
-    whatWeHostLede:
-      'A workspace built between mountains and sea — private studios, coworking, Cloud Coffee, meeting rooms and a shower, all under one roof.',
+    whatWeHost: 'Environment & Facilities',
+    whatWeHostLede: '',
     hostItems: [
-      { title: 'Between mountain & sea', description: 'The Pacific Ocean to the front, the Central Mountain Range behind. The view from your desk.' },
-      { title: 'Private studios', description: 'Long-stay studios with ensuite bathroom and air conditioning. Residencies run one to three months.' },
-      { title: 'Coworking space', description: 'Ground-floor coworking and meeting area for up to 20–25 — ideal for workshops and small launches.' },
-      { title: 'Private meeting rooms', description: 'Bookable closed-door rooms with projector, whiteboard and video gear.' },
-      { title: 'High-speed internet', description: 'Enterprise-grade fibre — comfortable for video calls, async collaboration and 4K uploads.' },
-      { title: 'Shower on site', description: 'A private shower room — surf, run, commute and rinse off, then keep working.' },
+      {
+        title: 'Between mountain & sea',
+        description: 'Pacific to the east, Central Mountain Range to the west — Hualien opens up the moment you look up from your desk.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: 'In the right neighbourhood',
+        description: 'Cafés, restaurants, convenience stores and the Meilun Track all within a 10-minute walk.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: 'Private studios',
+        description: 'Well-equipped private studios with ensuite bathroom and air conditioning.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: 'Coworking space',
+        description: 'A creative space for 20–25 people — perfect for workshops and small meet-ups.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: 'Bookable meeting rooms',
+        description: 'Reservation-based meeting rooms with projector, whiteboard and video conferencing gear.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
+      {
+        title: 'High-speed internet',
+        description: 'Stay connected to the world — uploads and downloads, no friction.',
+        // image filled via CMS / public folder once photos are uploaded
+      },
     ],
     visitTitle: 'The Hualien Life',
     visitLede:

@@ -18,6 +18,18 @@ interface Settings {
   social?: SocialLink[] | null
 }
 
+function formatPhone(raw?: string | null): string | null {
+  if (!raw) return null
+  const trimmed = raw.trim()
+  if (!trimmed) return null
+  if (/^\(\+886\)/.test(trimmed)) return trimmed
+  if (/^\+886/.test(trimmed)) return trimmed.replace(/^\+886\s*/, '(+886)')
+  if (/^0?3-?\d/.test(trimmed)) {
+    return `(+886)${trimmed.replace(/^0/, '')}`
+  }
+  return trimmed
+}
+
 export async function Footer({ lang }: { lang: Lang }) {
   const tx = t(lang)
   const payload = await getPayload({ config: await config })
@@ -29,7 +41,7 @@ export async function Footer({ lang }: { lang: Lang }) {
   const year = new Date().getFullYear()
   const copyright = settings?.footer?.copyright ?? `© ${year} ${tx.copyright}`
   const email = settings?.contact?.email
-  const phone = settings?.contact?.phone
+  const phone = formatPhone(settings?.contact?.phone) ?? '(+886)3-835-0046'
   const address = settings?.contact?.address
   const socials = settings?.social ?? []
 

@@ -125,40 +125,59 @@ export default async function HomePage({
       <section className="shell">
         <div className="intro">
           <span className="section-label">— 01 / {lang === 'zh' ? '緒言' : 'Intro'}</span>
-          <p className="intro__copy">
+          <div className="intro__copy">
             {lang === 'zh' ? (
               <>
-                花蓮雲基地是 <em>共創</em>、<em>共學</em>、<em>共生</em> 的數位遊牧據點。
-                山的一側是中央山脈，另一側是太平洋；
-                我們在中間打造一個讓人留下來的角落，
-                <em>連結地方與世界的可能</em>。
+                <p className="intro__brand">花蓮雲基地</p>
+                <p>
+                  一側倚著<em>中央山脈</em>的安定，另一側迎向<em>太平洋</em>的遼闊；
+                  我們在山海之間，留下一個能安心停泊的地方。
+                </p>
+                <p>
+                  這裡有<em>共創</em>的靈感、<em>共學</em>的交流，也有<em>共生</em>的溫度。
+                  無論從哪裡來，都能在這裡，重新找到與土地、人群，以及自己的連結。
+                </p>
               </>
             ) : (
               <>
-                Hualien Cloud Hub is a digital nomad base shaped by <em>shared making</em>,
-                <em> shared learning</em>, and <em>shared living</em>. Tucked between
-                Taiwan&rsquo;s Central Range and the Pacific Ocean —
-                <em> where local meets global</em>.
+                <p className="intro__brand">Hualien Cloud Hub</p>
+                <p>
+                  Anchored by the <em>Central Mountain Range</em> on one side and opening
+                  toward the <em>Pacific</em> on the other — a place between mountain and
+                  sea where people can drop anchor.
+                </p>
+                <p>
+                  Here we share <em>making</em>, <em>learning</em> and <em>living</em>.
+                  Whoever you are, wherever you come from — re-find your connection to the
+                  land, to one another, and to yourself.
+                </p>
               </>
             )}
-          </p>
+          </div>
         </div>
       </section>
 
       {/* ───────────────────────── WHAT WE HOST ───────────────────────── */}
-      <section className="shell programmes">
+      <section className="shell programmes programmes--cards">
         <div className="programmes__head">
           <span className="section-label">{tx.programmesEyebrow}</span>
           <h2>{tx.whatWeHost}</h2>
-          <p>{tx.whatWeHostLede}</p>
+          {tx.whatWeHostLede && <p>{tx.whatWeHostLede}</p>}
         </div>
-        <div className="programmes__list">
+        <div className="programmes__cards">
           {tx.hostItems.map((item, i) => (
-            <div className="programme-item" key={i}>
-              <span className="num">{String(i + 1).padStart(2, '0')}</span>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
+            <article className="facility-card" key={i}>
+              <div className="facility-card__media">
+                {item.image && (
+                  <img src={item.image} alt="" loading="lazy" />
+                )}
+                <span className="facility-card__num">{String(i + 1).padStart(2, '0')}</span>
+              </div>
+              <div className="facility-card__body">
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            </article>
           ))}
         </div>
       </section>
@@ -196,7 +215,7 @@ export default async function HomePage({
       </section>
 
       {/* ───────────────────────── HUALIEN 33 ───────────────────────── */}
-      <section className="shell programmes">
+      <section id="hualien-33" className="shell programmes">
         <div className="programmes__head">
           <span className="section-label">
             — 03 / {lang === 'zh' ? '花蓮三三' : 'Hualien 33'}
@@ -209,20 +228,19 @@ export default async function HomePage({
             )}
           </h2>
           <p>
-            {lang === 'zh'
-              ? '在山海與訊號之間，找回生活的頻率。「三三」不只是一個日期，是我們與自己、與這片土地的約定 — 把忙碌與喘息的交界，留給自己與彼此。'
-              : 'Between mountain, sea and signal — a chance to find the rhythm of your week. "33" is not just a date; it’s an appointment with yourself, with the land, and with each other.'}
-          </p>
-          <p style={{ marginTop: '1rem' }}>
-            {lang === 'zh'
-              ? '標誌上的三座山峰與三陣海浪，象徵花蓮的地景，也代表數位遊牧的三個支柱：'
-              : 'The three peaks and three waves on our mark stand for Hualien’s landscape — and for the three pillars of digital nomad life:'}
-            <br />
-            <strong>
-              {lang === 'zh'
-                ? '自由的靈魂 ｜ 高效的工作 ｜ 深度的連結'
-                : 'A free spirit · focused work · deep connection'}
-            </strong>
+            {lang === 'zh' ? (
+              <>
+                在山海與訊號之間，找回生活的頻率。
+                <br />
+                「三三」不只是一個日期，是我們與自己、與這片土地的約定 — 把忙碌與喘息的交界，留給自己與彼此。
+              </>
+            ) : (
+              <>
+                Between mountain, sea and signal — a chance to find the rhythm of your week.
+                <br />
+                &ldquo;33&rdquo; is not just a date; it&rsquo;s an appointment with yourself, with the land, and with each other.
+              </>
+            )}
           </p>
         </div>
         <div className="programmes__list">
@@ -248,9 +266,23 @@ export default async function HomePage({
             <span className="num">{lang === 'zh' ? '每月第三週 / 18:30' : '3RD WED · 18:30'}</span>
             <h3>{lang === 'zh' ? '三三小聚' : '33 Meetup'}</h3>
             <p>
-              {lang === 'zh'
-                ? '每月第三個週三 18:30 – 20:30。在地與全球的數位遊牧者圍坐一桌，把這個月在做的事帶上來分享。打破遠距工作的孤獨感，讓工程師、設計師、作家在每個第三週像候鳥一樣回到這裡。'
-                : 'Third Wednesday, 18:30 – 20:30. Locals and visiting digital nomads — engineers, designers, writers — share one long table and one month’s worth of work, breaking the solitude of remote life.'}
+              {lang === 'zh' ? (
+                <>
+                  每月第三個週三 18:30 – 20:30。
+                  <br />
+                  在地與全球的數位遊牧者圍坐一桌，把這個月在做的事帶上來分享。
+                  <br />
+                  邀請國際數位遊牧者或產業代表來分享及交流。
+                </>
+              ) : (
+                <>
+                  Third Wednesday, 18:30 – 20:30.
+                  <br />
+                  Locals and visiting digital nomads share one long table and one month&rsquo;s worth of work.
+                  <br />
+                  We also invite international digital nomads and industry guests to share and exchange.
+                </>
+              )}
             </p>
           </div>
         </div>

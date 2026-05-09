@@ -32,13 +32,23 @@ export async function Header({ lang }: { lang: Lang }) {
     .catch(() => null)
   const items = ((nav as { items?: NavNode[] } | null)?.items ?? []) as NavNode[]
 
+  const meetupLabel = lang === 'zh' ? '三三小聚' : 'Hualien 33'
+  const friendlyLabel = lang === 'zh' ? '友善店家' : 'Friendly Shops'
+
   // Build the link list once on the server, then hand off to the client UI.
+  const cmsLinks = items.slice(0, 4).map((item) => ({
+    label: item.label ?? '',
+    href: resolveHref(item, lang),
+  }))
+  const has33 = cmsLinks.some((l) => /三三|33/.test(l.label) || /hualien-33/.test(l.href))
+  const hasFriendly = cmsLinks.some(
+    (l) => /友善|friendly|shop/i.test(l.label) || /friendly-shops/.test(l.href),
+  )
   const links = [
     { label: tx.navNews, href: `/${lang}/news` },
-    ...items.slice(0, 4).map((item) => ({
-      label: item.label ?? '',
-      href: resolveHref(item, lang),
-    })),
+    ...cmsLinks,
+    ...(has33 ? [] : [{ label: meetupLabel, href: `/${lang}#hualien-33` }]),
+    ...(hasFriendly ? [] : [{ label: friendlyLabel, href: `/${lang}/friendly-shops` }]),
   ]
 
   return (

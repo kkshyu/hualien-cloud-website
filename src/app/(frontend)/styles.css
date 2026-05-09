@@ -436,8 +436,11 @@ p {
 }
 
 .hero__sub {
-  font-size: var(--t-lg);
-  line-height: 1.55;
+  font-family: var(--f-display-tc);
+  font-weight: 400;
+  font-size: clamp(1.0625rem, 1.6vw, 1.3125rem);
+  line-height: 1.65;
+  letter-spacing: 0.005em;
   color: var(--ink-soft);
   max-width: 48ch;
 }
@@ -918,6 +921,106 @@ p {
   .programmes__head { position: sticky; top: 6rem; }
 }
 
+/* Facility cards — press-conference style, 標題 + 小圖片 + 短文字 */
+.programmes--cards { grid-template-columns: 1fr; }
+
+@media (min-width: 920px) {
+  .programmes--cards { grid-template-columns: 1fr; }
+  .programmes--cards .programmes__head {
+    position: static;
+    max-width: 60ch;
+    margin-bottom: 1rem;
+  }
+}
+
+.programmes__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: clamp(1.25rem, 2.4vw, 2rem);
+  border-top: 1px solid var(--rule);
+  padding-top: 2rem;
+}
+
+.facility-card {
+  display: flex;
+  flex-direction: column;
+  background: color-mix(in oklab, var(--paper) 92%, var(--mist));
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.4s var(--ease-out), box-shadow 0.4s;
+}
+
+.facility-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -22px rgba(26, 24, 21, 0.4);
+}
+
+.facility-card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background:
+    radial-gradient(120% 80% at 30% 20%, color-mix(in oklab, var(--moss-lit) 18%, transparent), transparent 60%),
+    radial-gradient(140% 90% at 80% 90%, color-mix(in oklab, var(--clay-soft) 16%, transparent), transparent 65%),
+    var(--mist);
+  overflow: hidden;
+}
+
+.facility-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.facility-card:hover .facility-card__media img { transform: scale(1.04); }
+
+.facility-card__num {
+  position: absolute;
+  left: 0.85rem;
+  top: 0.85rem;
+  padding: 0.3rem 0.7rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-mono);
+  font-size: var(--t-2xs);
+  letter-spacing: 0.18em;
+  border-radius: 2px;
+}
+
+.facility-card__body {
+  padding: 1.25rem 1.35rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.facility-card__body h3 {
+  font-family: var(--f-display-tc);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  color: var(--ink);
+}
+
+.facility-card__body p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-mute);
+  margin: 0;
+}
+
+@media (max-width: 880px) {
+  .programmes__cards {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 1.5rem;
+  }
+  .facility-card__media { aspect-ratio: 16 / 10; }
+  .facility-card__body { padding: 1rem 1.15rem 1.4rem; }
+}
+
 /* ========================================================================
    The Hualien Life — visit teaser
    ======================================================================== */
@@ -1065,17 +1168,36 @@ p {
 
 .intro__copy {
   font-family: var(--f-display-tc);
-  font-size: clamp(1.35rem, 2.4vw, 1.95rem);
-  line-height: 1.45;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  line-height: 1.6;
   font-weight: 400;
   color: var(--ink);
-  max-width: 38ch;
+  max-width: 42ch;
+}
+
+.intro__copy p {
+  margin: 0 0 1em;
+}
+
+.intro__copy p:last-child {
+  margin-bottom: 0;
+}
+
+.intro__brand {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  color: var(--moss);
+  margin-bottom: 1.25rem !important;
+  letter-spacing: 0.01em;
 }
 
 .intro__copy em {
   font-family: var(--f-display);
   font-style: italic;
   color: var(--moss);
+  font-weight: 500;
 }
 
 @media (min-width: 920px) {

@@ -70,25 +70,31 @@ export const Pages: CollectionConfig = {
     {
       name: 'body',
       type: 'richText',
-      label: '內文',
+      label: '內文（所見即所得編輯器）',
       localized: true,
       editor: lexicalEditor({
-        features: ({ defaultFeatures }) => [
+        features: ({ defaultFeatures, rootFeatures }) => [
+          ...(rootFeatures ?? []),
           ...defaultFeatures,
           HeadingFeature({ enabledHeadingSizes: ['h2', 'h3', 'h4'] }),
           FixedToolbarFeature(),
           LinkFeature({}),
         ],
       }),
+      admin: {
+        description: '直接在編輯器中輸入內容，會自動排版。可使用標題、清單、連結、表格、圖片等。',
+      },
     },
     {
       name: 'legacyHtml',
       type: 'textarea',
-      label: '舊版內容原始碼（匯入用，遷移完成後可清空）',
+      label: '舊版 HTML 原始碼',
       localized: true,
       admin: {
-        description: '只在尚未用編輯器重建內文時使用；上方「內文」已填寫時會優先顯示內文',
-        rows: 6,
+        // Hidden from the admin UI: editors only interact with the WYSIWYG
+        // editor above. Field retained in schema so existing data isn't lost
+        // and the frontend can fall back to it when `body` is still empty.
+        hidden: true,
       },
     },
     {
