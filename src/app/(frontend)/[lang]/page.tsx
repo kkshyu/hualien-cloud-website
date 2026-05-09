@@ -215,7 +215,14 @@ export default async function HomePage({
       </section>
 
       {/* ───────────────────────── HUALIEN 33 ───────────────────────── */}
-      <section id="hualien-33" className="shell programmes">
+      <section id="hualien-33" className="shell programmes hualien-33">
+        <figure className="hualien-33__cover">
+          <img
+            src="/marketing/workshop-meetup.jpg"
+            alt={lang === 'zh' ? '花蓮三三小聚現場' : 'Hualien 33 Meetup'}
+            loading="lazy"
+          />
+        </figure>
         <div className="programmes__head">
           <span className="section-label">
             — 03 / {lang === 'zh' ? '花蓮三三' : 'Hualien 33'}

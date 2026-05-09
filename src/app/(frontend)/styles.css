@@ -921,6 +921,26 @@ p {
   .programmes__head { position: sticky; top: 6rem; }
 }
 
+/* Hualien 33 — full-bleed cover photo at the top of the section */
+.hualien-33 { grid-template-columns: 1fr; }
+.hualien-33 .programmes__head { position: static; }
+.hualien-33__cover {
+  margin: 0 0 clamp(1.5rem, 3vw, 2.5rem);
+  aspect-ratio: 16 / 6;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--mist);
+}
+.hualien-33__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+@media (max-width: 880px) {
+  .hualien-33__cover { aspect-ratio: 16 / 9; }
+}
+
 /* Facility cards — press-conference style, 標題 + 小圖片 + 短文字 */
 .programmes--cards { grid-template-columns: 1fr; }
 
