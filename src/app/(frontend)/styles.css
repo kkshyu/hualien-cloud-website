@@ -935,10 +935,18 @@ p {
 
 .programmes__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: clamp(1.25rem, 2.4vw, 2rem);
   border-top: 1px solid var(--rule);
   padding-top: 2rem;
+}
+
+@media (max-width: 880px) {
+  .programmes__cards { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 600px) and (max-width: 880px) {
+  .programmes__cards { grid-template-columns: repeat(2, 1fr); }
 }
 
 .facility-card {
@@ -1013,7 +1021,6 @@ p {
 
 @media (max-width: 880px) {
   .programmes__cards {
-    grid-template-columns: 1fr;
     gap: 1.25rem;
     padding-top: 1.5rem;
   }

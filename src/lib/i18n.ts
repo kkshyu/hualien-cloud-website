@@ -87,38 +87,33 @@ export const I18N: Record<Lang, Dict> = {
     homeBadge: 'EST. HUALIEN',
     visitUs: '來訪指南',
     langSwitchLabel: '語言',
-    whatWeHost: '環境與設施',
-    whatWeHostLede: '',
+    whatWeHost: '依山傍海的工作據點',
+    whatWeHostLede: '一個為長駐工作而生的基地。',
     hostItems: [
       {
         title: '山海環抱',
-        description: '前有太平洋、後有中央山脈，從工作桌一抬頭即擁有花蓮的遼闊。',
-        // image filled via CMS / public folder once photos are uploaded
+        description: '前有太平洋，後有中央山脈。',
+        image: '/programmes/01-exterior.png',
       },
       {
-        title: '地理位置',
-        description: '走路 10 分鐘內有多種美食、便利商店、美崙田徑場，生活機能便利。',
-        // image filled via CMS / public folder once photos are uploaded
+        title: '可長駐專注',
+        description: '獨立工作位，不受打擾。',
+        image: '/programmes/02-private-studio.png',
       },
       {
-        title: '獨立進駐空間',
-        description: '環境優美、設備齊全的個人工作室，含有獨立的衛浴與空調。',
-        // image filled via CMS / public folder once photos are uploaded
+        title: '活動與社群交流',
+        description: '小聚、工作坊、社群活動。',
+        image: '/programmes/03-coworking.png',
       },
       {
-        title: '共創空間',
-        description: '能激發創意靈感的場域，最多容納 20 – 25 人，適合工作坊與小型交流會。',
-        // image filled via CMS / public folder once photos are uploaded
+        title: '以咖啡會友',
+        description: '每月主題日，與波提娜麗合作。',
+        image: '/programmes/04-cloud-coffee.png',
       },
       {
-        title: '小型會議室',
-        description: '預約制小型會議室，配有投影、白板、視訊麥克風設備。',
-        // image filled via CMS / public folder once photos are uploaded
-      },
-      {
-        title: '高速網路',
-        description: '與世界連結不卡卡，上傳下載都輕鬆。',
-        // image filled via CMS / public folder once photos are uploaded
+        title: '隨時盥洗',
+        description: '運動、通勤後都能沖澡。',
+        image: '/programmes/05-shower.png',
       },
     ],
     visitTitle: '花蓮印象',
@@ -158,38 +153,33 @@ export const I18N: Record<Lang, Dict> = {
     homeBadge: 'EST. HUALIEN',
     visitUs: 'Plan a visit',
     langSwitchLabel: 'Language',
-    whatWeHost: 'Environment & Facilities',
+    whatWeHost: 'A fully-equipped hub built for long stays and real work.',
     whatWeHostLede: '',
     hostItems: [
       {
         title: 'Between mountain & sea',
-        description: 'Pacific to the east, Central Mountain Range to the west — Hualien opens up the moment you look up from your desk.',
-        // image filled via CMS / public folder once photos are uploaded
+        description: 'Pacific to the front, Central Range behind.',
+        image: '/programmes/01-exterior.png',
       },
       {
-        title: 'In the right neighbourhood',
-        description: 'Cafés, restaurants, convenience stores and the Meilun Track all within a 10-minute walk.',
-        // image filled via CMS / public folder once photos are uploaded
+        title: 'Focus, undisturbed',
+        description: 'Private workstations for deep focus.',
+        image: '/programmes/02-private-studio.png',
       },
       {
-        title: 'Private studios',
-        description: 'Well-equipped private studios with ensuite bathroom and air conditioning.',
-        // image filled via CMS / public folder once photos are uploaded
+        title: 'Connect & community',
+        description: 'Meet-ups, workshops and community events.',
+        image: '/programmes/03-coworking.png',
       },
       {
-        title: 'Coworking space',
-        description: 'A creative space for 20–25 people — perfect for workshops and small meet-ups.',
-        // image filled via CMS / public folder once photos are uploaded
+        title: 'Coffee with the locals',
+        description: 'Monthly themed mornings with Bottega Manli.',
+        image: '/programmes/04-cloud-coffee.png',
       },
       {
-        title: 'Bookable meeting rooms',
-        description: 'Reservation-based meeting rooms with projector, whiteboard and video conferencing gear.',
-        // image filled via CMS / public folder once photos are uploaded
-      },
-      {
-        title: 'High-speed internet',
-        description: 'Stay connected to the world — uploads and downloads, no friction.',
-        // image filled via CMS / public folder once photos are uploaded
+        title: 'Fresh after a run',
+        description: 'On-site shower for runs, surf and commutes.',
+        image: '/programmes/05-shower.png',
       },
     ],
     visitTitle: 'The Hualien Life',
