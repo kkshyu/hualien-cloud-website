@@ -340,58 +340,107 @@ const VENUE_PATCH_EN = `
 `.trim()
 
 // ---------- Friendly shops / Local experiences ----------
+// Source: 1150407 雙語化店家加入數位游牧名單 (22 partners across 4 categories)
 const FRIENDLY_ZH = `
+<h2>關於數位游牧友善店家</h2>
+<p>22 間花蓮在地夥伴掛上「數位游牧友善店家」標章，從原民風味料理、賞鯨遊程到溫泉旅宿，把工作之外的日子接起來。把工作放下、走出基地，會發現花蓮原來這麼大。</p>
+
 <h2>遊程體驗 Tour Experiences</h2>
-<p>把工作放下，讓花蓮的山海帶你出去走走。雲基地夥伴的精選遊程：</p>
 <ul>
-  <li>
-    <strong>多羅滿賞鯨</strong>
-    — 海上賞鯨、解說導覽。
-    <a href="https://www.turumoan.com.tw" target="_blank" rel="noopener">官網</a>
-    ｜電話：<a href="tel:+88638333821">(+886) 03-833-3821</a>
-  </li>
-  <li>
-    <strong>九日良田工作坊</strong>
-    — 田野食農、季節限定的米作體驗。
-    <a href="https://www.facebook.com/9LiangTian/" target="_blank" rel="noopener">Facebook</a>
-  </li>
+  <li><strong>多羅滿海上娛樂</strong> — <a href="tel:+88638333821">(+886) 3-833-3821</a></li>
+  <li><strong>高山森林基地</strong> — <a href="tel:+886933991926">(+886) 933-991-926</a></li>
+  <li><strong>易踏趣</strong> — <a href="tel:+886978583656">(+886) 978-583-656</a></li>
+  <li><strong>Bian Jiao 邊邊角角</strong> — <a href="tel:+886938798400">(+886) 938-798-400</a></li>
+  <li><strong>吉籟獵人學校</strong> — <a href="tel:+886925758258">(+886) 925-758-258</a></li>
+  <li><strong>禾亮家香草 Pura Vida Herbs</strong> — <a href="tel:+886975377615">(+886) 975-377-615</a></li>
+  <li><strong>後山金工房</strong> — <a href="tel:+886980436674">(+886) 980-436-674</a></li>
+  <li><strong>東岸國際旅行社</strong> — <a href="tel:+886922264795">(+886) 922-264-795</a></li>
 </ul>
 
-<h2>友善餐飲 Cafés &amp; Restaurants</h2>
-<p>步行可達、雲基地常去的口袋名單。</p>
+<h2>餐飲業者 Restaurants &amp; Cafés</h2>
+<ul>
+  <li><strong>達基力部落屋</strong> — <a href="tel:+886970323871">(+886) 970-323-871</a></li>
+  <li><strong>芳草古樹風味館</strong> — <a href="tel:+886910265272">(+886) 910-265-272</a></li>
+  <li><strong>九日良田工作坊</strong> — <a href="tel:+886977051477">(+886) 977-051-477</a></li>
+  <li><strong>林氏海產</strong> — <a href="tel:+886905815891">(+886) 905-815-891</a></li>
+  <li><strong>豆奏會</strong> — <a href="tel:+886920923327">(+886) 920-923-327</a></li>
+  <li><strong>林記魚丸</strong> — <a href="tel:+886975977806">(+886) 975-977-806</a></li>
+  <li><strong>艾斯可菲小館</strong> — <a href="tel:+886955567736">(+886) 955-567-736</a></li>
+  <li><strong>加家食堂</strong> — <a href="tel:+886915185066">(+886) 915-185-066</a></li>
+  <li><strong>七星潭慕名私房料理</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+  <li><strong>以映慕名</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+  <li><strong>法礫原民料理</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+</ul>
+
+<h2>伴手禮 Souvenirs</h2>
+<ul>
+  <li><strong>清風茶行</strong> — <a href="tel:+886980192849">(+886) 980-192-849</a></li>
+  <li><strong>洄遊吧食魚體驗館</strong> — <a href="tel:+886968779878">(+886) 968-779-878</a></li>
+</ul>
+
+<h2>旅宿業 Lodging</h2>
+<ul>
+  <li><strong>虎爺溫泉休閒事業有限公司</strong> — <a href="tel:+886988783823">(+886) 988-783-823</a></li>
+</ul>
+
+<h2>雲基地常去的口袋名單</h2>
 <ul>
   <li><strong>波提娜麗咖啡</strong> — 在地精品咖啡，雲基地手沖咖啡專業養成的講師團隊。</li>
   <li><strong>花蓮市區小食</strong> — 沿著中山路、府前路一帶，小麵店、刀削麵、肉羹⋯⋯走 10 分鐘就能換一道。</li>
 </ul>
 
-<p style="font-size:0.9rem;color:#666;">如果有想推薦的店家或行程，歡迎來信 <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>。</p>
+<p>名單持續更新中。如果你也想加入「數位游牧友善店家」、或推薦其他在地店家，歡迎來信 <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>。</p>
 `.trim()
 
 const FRIENDLY_EN = `
-<h2>Tour Experiences</h2>
-<p>Step away from the desk; the mountains and the Pacific are right outside. Hand-picked partners we vouch for:</p>
+<h2>About the Digital-Nomad-Friendly Network</h2>
+<p>Twenty-two Hualien partners — restaurants, indigenous kitchens, whale-watching crews, soak-worthy hot-spring inns — wear the &ldquo;Digital-Nomad-Friendly&rdquo; mark. Step out of the Hub and Hualien gets a lot bigger.</p>
+
+<h2>Tours &amp; Experiences</h2>
 <ul>
-  <li>
-    <strong>Turumoan Whale Watching</strong>
-    — guided cetacean tours off Hualien&rsquo;s coast.
-    <a href="https://www.turumoan.com.tw" target="_blank" rel="noopener">Website</a>
-    · Phone: <a href="tel:+88638333821">(+886) 03-833-3821</a>
-  </li>
-  <li>
-    <strong>9 Liang Tian Workshop</strong>
-    — seasonal farm-to-table experiences in the rice fields.
-    <a href="https://www.facebook.com/9LiangTian/" target="_blank" rel="noopener">Facebook</a>
-  </li>
+  <li><strong>Turumoan Whale Watching</strong> — <a href="tel:+88638333821">(+886) 3-833-3821</a></li>
+  <li><strong>Gaoshan Forest Base</strong> — <a href="tel:+886933991926">(+886) 933-991-926</a></li>
+  <li><strong>Yi Ta Qu</strong> — <a href="tel:+886978583656">(+886) 978-583-656</a></li>
+  <li><strong>Bian Jiao</strong> — <a href="tel:+886938798400">(+886) 938-798-400</a></li>
+  <li><strong>Cidal Hunter School</strong> — <a href="tel:+886925758258">(+886) 925-758-258</a></li>
+  <li><strong>Pura Vida Herbs</strong> — <a href="tel:+886975377615">(+886) 975-377-615</a></li>
+  <li><strong>Houshan Metal Workshop</strong> — <a href="tel:+886980436674">(+886) 980-436-674</a></li>
+  <li><strong>East Coast Travel</strong> — <a href="tel:+886922264795">(+886) 922-264-795</a></li>
 </ul>
 
-<h2>Cafés &amp; Restaurants</h2>
-<p>Within a 10-minute walk and on heavy rotation at the Hub:</p>
+<h2>Restaurants &amp; Cafés</h2>
+<ul>
+  <li><strong>Dakili Tribal House</strong> — <a href="tel:+886970323871">(+886) 970-323-871</a></li>
+  <li><strong>Fragrant Heritage Kitchen</strong> — <a href="tel:+886910265272">(+886) 910-265-272</a></li>
+  <li><strong>9 Liang Tian Workshop</strong> — <a href="tel:+886977051477">(+886) 977-051-477</a></li>
+  <li><strong>Lin Family Seafood</strong> — <a href="tel:+886905815891">(+886) 905-815-891</a></li>
+  <li><strong>Dou Zou Hui</strong> — <a href="tel:+886920923327">(+886) 920-923-327</a></li>
+  <li><strong>Lin&rsquo;s Fishball</strong> — <a href="tel:+886975977806">(+886) 975-977-806</a></li>
+  <li><strong>Escoffier Bistro</strong> — <a href="tel:+886955567736">(+886) 955-567-736</a></li>
+  <li><strong>Jia Jia Diner</strong> — <a href="tel:+886915185066">(+886) 915-185-066</a></li>
+  <li><strong>Qixingtan Mu-Ming Private Kitchen</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+  <li><strong>Yi Ying Mu-Ming</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+  <li><strong>Fa Li Indigenous Cuisine</strong> — <a href="tel:+886987663328">(+886) 987-663-328</a></li>
+</ul>
+
+<h2>Souvenirs</h2>
+<ul>
+  <li><strong>Qing Feng Tea House</strong> — <a href="tel:+886980192849">(+886) 980-192-849</a></li>
+  <li><strong>FishBar — Fish-Eating Experience</strong> — <a href="tel:+886968779878">(+886) 968-779-878</a></li>
+</ul>
+
+<h2>Lodging</h2>
+<ul>
+  <li><strong>Hu-Ye Hot Spring Resort</strong> — <a href="tel:+886988783823">(+886) 988-783-823</a></li>
+</ul>
+
+<h2>Hub favourites within walking distance</h2>
 <ul>
   <li><strong>Bottega Manli</strong> — local specialty coffee; the team behind Cloud Coffee&rsquo;s monthly hand-drip class.</li>
   <li><strong>Downtown Hualien</strong> — Zhongshan Road / Fuqian Road are lined with noodle bars, dumpling stops and rice-bowl shops. Walk ten minutes and you&rsquo;ll find a different bowl.</li>
 </ul>
 
-<p style="font-size:0.9rem;color:#666;">Got a place you love? Drop us a note: <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>.</p>
+<p>The list is growing. To join the &ldquo;Digital-Nomad-Friendly&rdquo; network or recommend a place, email us at <a href="mailto:contact@hualien.cloud">contact@hualien.cloud</a>.</p>
 `.trim()
 
 async function updatePage(
