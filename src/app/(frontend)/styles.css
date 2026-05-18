@@ -426,6 +426,7 @@ p {
   letter-spacing: -0.025em;
   font-weight: 400;
   margin: 1.25rem 0 1.5rem;
+  white-space: pre-line;
 }
 
 .hero__title .accent {
