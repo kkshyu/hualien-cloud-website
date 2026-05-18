@@ -117,12 +117,12 @@ const MOVE_IN_PATCH_ZH = `
 const MOVE_IN_PATCH_EN = `
 <h2>About Nomad Hualien</h2>
 <p><strong>Nomad Hualien — the Hualien Cloud Hub International Digital Nomad Residency Programme</strong> invites digital nomads from around the world to base their next chapter in Hualien. From Taiwan&rsquo;s east coast, the programme provides workspace and a community platform that connects <strong>international and local</strong>.</p>
-<p>Hosted by Hualien County Government　|　Operated by Yo-Yo Co., Ltd.　|　FY 2026 (民國 115 年度)</p>
+<p>Hosted by Hualien County Government | Operated by Twouring Co., Ltd. | FY 2026</p>
 
 <h3>📑 Recruitment Brochures</h3>
 <ul>
   <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-en.pdf?prefix=media" target="_blank" rel="noopener">Download English brochure (PDF · 8 pages)</a></li>
-  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-zh.pdf?prefix=media" target="_blank" rel="noopener">下載中文版簡章 (PDF · 8 頁)</a></li>
+  <li>📄 <a href="/api/media/file/nomad-hualien-recruitment-brochure-zh.pdf?prefix=media" target="_blank" rel="noopener">Download Chinese brochure (PDF · 8 pages)</a></li>
 </ul>
 
 <h2>Slots &amp; Schedule</h2>
@@ -331,7 +331,7 @@ const VENUE_PATCH_EN = `
   <li>The venue strictly prohibits exhibiting goods with false origin labels, deceptive advertising, counterfeit trademarks or patent-infringing items, and any unauthorized reproduction, public performance, broadcast, screening or transmission of copyrighted works.</li>
   <li>Do not move venue furniture or equipment without consent; violators bear all liabilities.</li>
   <li>The venue reserves the right to amend these rules at any time.</li>
-  <li>These rules take effect from 13 June 2025 (民國 114 年 6 月 13 日).</li>
+  <li>These rules take effect from 13 June 2025.</li>
 </ol>
 
 <h2>Apply</h2>
